@@ -67,6 +67,17 @@ const ptitle=()=>($('#ptitle').value.trim()||'每日報報');
 $('#ptitle').value=localStorage.getItem('nn_title')||'每日報報';
 let _pt;$('#ptitle').oninput=()=>{const v=$('#ptitle').value.trim();v&&v!=='每日報報'?localStorage.setItem('nn_title',v):localStorage.removeItem('nn_title');clearTimeout(_pt);_pt=setTimeout(redraw,500);};
 $('#ptreset').onclick=()=>{$('#ptitle').value='每日報報';localStorage.removeItem('nn_title');redraw();};
+// text colours for the 自選 poster (up/down colours stay fixed red/green)
+const CDEF={title:'gold',head:'#ffffff',text:'#e8eeff',num:'#111111'};
+const SW=[['白','#ffffff'],['金','#f2b632'],['大心藍綠','#17a2a0'],['深藍','#0a1a3a'],['紅','#d7262b']];
+let COL=Object.assign({},CDEF,JSON.parse(localStorage.getItem('nn_colors')||'{}'));
+const CL={title:'自訂標題（金色字圖以外）',head:'頭條與標題文字',text:'內文與說明文字',num:'匯率／指數數字'};
+function renderCols(){$('#cols').innerHTML=Object.keys(CL).map(k=>`<div class=cr2><span class=cn2>${CL[k]}</span>${(k==='title'?[['金色漸層','gold']]:[]).concat(SW).map(([n,v])=>`<button class="sw${COL[k]===v?' on':''}" data-k=${k} data-v="${v}" title="${n}" style="background:${v==='gold'?'linear-gradient(#fff1b0,#f2b632,#c98a12)':v}"></button>`).join('')}<input type=color data-k=${k} value="${COL[k]==='gold'?'#f2b632':COL[k]}"></div>`).join('');
+  document.querySelectorAll('.sw').forEach(b=>b.onclick=()=>setCol(b.dataset.k,b.dataset.v));
+  document.querySelectorAll('#cols input[type=color]').forEach(i=>i.onchange=()=>setCol(i.dataset.k,i.value));}
+function setCol(k,v){COL[k]=v;localStorage.setItem('nn_colors',JSON.stringify(COL));renderCols();redraw();}
+$('#colreset').onclick=()=>{COL=Object.assign({},CDEF);localStorage.removeItem('nn_colors');renderCols();redraw();};
+renderCols();
 function redraw(){if($('#pout img'))$('#gen').click();}
 function fit(c,t,max,size,w,fam){fam=fam||F;let s=size;do{c.font=`${w} ${s}px ${fam}`;s-=1}while(c.measureText(t).width>max&&s>18);}
 async function poster(ids){
@@ -83,35 +94,35 @@ async function poster(ids){
     c.textAlign='center';c.textBaseline='middle';const cy=172,g=c.createLinearGradient(0,cy-s/2,0,cy+s/2);
     g.addColorStop(0,'#fff1b0');g.addColorStop(.45,'#f2b632');g.addColorStop(.8,'#c98a12');g.addColorStop(1,'#8a5a08');
     c.lineJoin='round';c.lineWidth=Math.max(4,s/18);c.strokeStyle='#5a3a06';c.shadowColor='rgba(0,0,0,.7)';c.shadowBlur=14;c.shadowOffsetY=6;c.strokeText(PT,540,cy);
-    c.shadowBlur=0;c.shadowOffsetY=0;c.fillStyle=g;c.fillText(PT,540,cy);c.textBaseline='alphabetic';}
-  c.textAlign='center';c.fillStyle='#fff';c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;
+    c.shadowBlur=0;c.shadowOffsetY=0;c.fillStyle=COL.title==='gold'?g:COL.title;c.fillText(PT,540,cy);c.textBaseline='alphabetic';}
+  c.textAlign='center';c.fillStyle=COL.head;c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;
   c.font=`800 76px ${INTER}`;c.fillText(`${D.date} News`,540,395);c.shadowBlur=0;
   const gold=(y,h)=>{const g=c.createLinearGradient(0,y,0,y+h);g.addColorStop(0,'#ffe680');g.addColorStop(1,'#f7c531');return g};
   const cardW=225,gap=20,x0=(1080-4*cardW-3*gap)/2;
   // FX
   D.fx.forEach(([n,code,v,u,a,p],k)=>{const x=x0+k*(cardW+gap),y=462,h=262;
     c.shadowColor='rgba(0,0,0,.4)';c.shadowBlur=14;rr(c,x,y,cardW,h,22);c.fillStyle=gold(y,h);c.fill();c.shadowBlur=0;
-    c.fillStyle='#111';c.font=`900 36px ${F_('T')}`;const nw=c.measureText(n).width;c.font=`600 22px ${INTER}`;const cw=c.measureText(' '+code).width;
+    c.fillStyle=COL.num;c.font=`900 36px ${F_('T')}`;const nw=c.measureText(n).width;c.font=`600 22px ${INTER}`;const cw=c.measureText(' '+code).width;
     c.textAlign='left';c.font=`900 36px ${F_('T')}`;c.fillText(n,x+cardW/2-(nw+cw)/2,y+56);c.font=`600 22px ${INTER}`;c.fillStyle='#555';c.fillText(' '+code,x+cardW/2-(nw+cw)/2+nw,y+56);
     c.textAlign='center';c.strokeStyle='rgba(0,0,0,.25)';c.lineWidth=2;c.beginPath();c.moveTo(x+14,y+82);c.lineTo(x+cardW-14,y+82);c.stroke();
-    c.fillStyle='#111';fit(c,v,cardW-20,54,700,INTER);c.fillText(v,x+cardW/2,y+152);
+    c.fillStyle=COL.num;fit(c,v,cardW-20,54,700,INTER);c.fillText(v,x+cardW/2,y+152);
     c.fillStyle=u==='up'?'#d4001a':'#078a32';c.font=`600 28px ${INTER}`;c.fillText(a,x+cardW/2,y+200);c.fillText(`(${p})`,x+cardW/2,y+238);});
-  c.fillStyle='rgba(6,16,45,.6)';rr(c,140,742,800,40,8);c.fill();c.fillStyle='#e8eeff';fit(c,D.fxnote,780,22,500,F_('S'));c.fillText(D.fxnote,540,770);
-  c.fillStyle='#fff';c.font=`900 56px ${F_('T')}`;c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;c.fillText('五大重點財經頭條',540,908);c.shadowBlur=0;
+  c.fillStyle='rgba(6,16,45,.6)';rr(c,140,742,800,40,8);c.fill();c.fillStyle=COL.text;fit(c,D.fxnote,780,22,500,F_('S'));c.fillText(D.fxnote,540,770);
+  c.fillStyle=COL.head;c.font=`900 56px ${F_('T')}`;c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;c.fillText('五大重點財經頭條',540,908);c.shadowBlur=0;
   heads.forEach((h,k)=>{const y=956+k*92;rr(c,60,y,960,74,16);c.fillStyle='rgba(8,18,50,.72)';c.fill();c.strokeStyle='#fff';c.lineWidth=3;c.stroke();
     c.beginPath();c.arc(112,y+37,25,0,7);c.fillStyle='#f7c531';c.fill();c.fillStyle='#0a1a3a';c.font=`800 30px ${INTER}`;c.textAlign='center';c.fillText(k+1,112,y+48);
-    c.textAlign='left';c.fillStyle='#fff';fit(c,h,830,38,600,F_('H'));c.fillText(h,155,y+50);});
+    c.textAlign='left';c.fillStyle=COL.head;fit(c,h,830,38,600,F_('H'));c.fillText(h,155,y+50);});
   c.textAlign='center';
   D.idx.forEach(([n,v,a,p,u],k)=>{const x=x0+k*(cardW+gap),y=1442,h=272;
     c.shadowColor='rgba(0,0,0,.4)';c.shadowBlur=14;rr(c,x,y,cardW,h,22);c.fillStyle=gold(y,h);c.fill();c.shadowBlur=0;
-    c.fillStyle='#111';fit(c,n,cardW-20,38,900,F_('T'));c.fillText(n,x+cardW/2,y+58);
+    c.fillStyle=COL.num;fit(c,n,cardW-20,38,900,F_('T'));c.fillText(n,x+cardW/2,y+58);
     c.strokeStyle='rgba(0,0,0,.25)';c.lineWidth=2;c.beginPath();c.moveTo(x+14,y+84);c.lineTo(x+cardW-14,y+84);c.stroke();
     fit(c,v,cardW-16,40,700,INTER);c.fillText(v,x+cardW/2,y+146);
     c.fillStyle=u==='up'?'#d4001a':'#078a32';fit(c,a,cardW-16,34,600,INTER);c.fillText(a,x+cardW/2,y+200);c.font=`600 34px ${INTER}`;c.fillText(`(${p})`,x+cardW/2,y+248);});
-  c.fillStyle='#fff';c.font=`500 24px ${F_('S')}`;const n2=D.idxnote+'　紅漲綠跌';c.fillText(n2,540,1762);
+  c.fillStyle=COL.text;c.font=`500 24px ${F_('S')}`;const n2=D.idxnote+'　紅漲綠跌';c.fillText(n2,540,1762);
   c.fillStyle='rgba(6,16,45,.65)';rr(c,30,1800,1020,96,10);c.fill();
   c.drawImage(logo,42,1803,90,90*logo.height/logo.width);
-  c.fillStyle='#e8eeff';const s1='資料來源：'+D.sources,s2=`資料截至 ${D.asof}（台北時間）`;fit(c,s1,860,22,500,F_('S'));c.fillText(s1,600,1840);c.font=`500 22px ${F_('S')}`;c.fillText(s2,600,1874);
+  c.fillStyle=COL.text;const s1='資料來源：'+D.sources,s2=`資料截至 ${D.asof}（台北時間）`;fit(c,s1,860,22,500,F_('S'));c.fillText(s1,600,1840);c.font=`500 22px ${F_('S')}`;c.fillText(s2,600,1874);
   return cv;
 }
 $('#gen').onclick=async()=>{
