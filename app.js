@@ -70,12 +70,11 @@ let _pt;$('#ptitle').oninput=()=>{const v=$('#ptitle').value.trim();v&&v!=='每�
 const TF={heavy:['900',SANS,'思源黑體 Heavy'],bold:['700',SANS,'思源黑體 Bold'],medium:['500',SANS,'思源黑體 Medium'],
   serif600:['600',SERIF,'思源宋體 SemiBold'],serif400:['400',SERIF,'思源宋體 Regular'],inter:['800',`${INTER},"Noto Sans TC","Noto Sans CJK TC",sans-serif`,'Inter']};
 let tfont=localStorage.getItem('nn_tfont');if(!(tfont in TF))tfont='';
-$('#tfont').innerHTML='<option value="">預設（每日報報＝金色字圖；其他＝思源黑體 Heavy）</option>'+Object.entries(TF).map(([k,v])=>`<option value=${k}>${v[2]}</option>`).join('');
 $('#tfont').value=tfont;
 $('#tfont').onchange=()=>{tfont=$('#tfont').value;tfont?localStorage.setItem('nn_tfont',tfont):localStorage.removeItem('nn_tfont');redraw();};
 const SW=[['金色漸層','gold'],['白','#ffffff'],['金','#f2b632'],['大心藍綠','#17a2a0'],['深藍','#0a1a3a'],['紅','#d7262b']];
 let TCOL=localStorage.getItem('nn_tcolor')||'gold';localStorage.removeItem('nn_colors');
-function renderCols(){$('#cols').innerHTML=`<div class=cr2><span class=cn2>標題顏色（使用金色字圖時不套用）</span>${SW.map(([n,v])=>`<button class="sw${TCOL===v?' on':''}" data-v="${v}" title="${n}" style="background:${v==='gold'?'linear-gradient(#fff1b0,#f2b632,#c98a12)':v}"></button>`).join('')}<input type=color id=tcol value="${TCOL==='gold'?'#f2b632':TCOL}"></div>`;
+function renderCols(){$('#cols').innerHTML=`<div class=cr2><span class=cn2 style="font-weight:700">標題顏色<small style="font-weight:400;color:#888">（金色字圖時不套用）</small></span>${SW.map(([n,v])=>`<button class="sw${TCOL===v?' on':''}" data-v="${v}" title="${n}" style="background:${v==='gold'?'linear-gradient(#fff1b0,#f2b632,#c98a12)':v}"></button>`).join('')}<input type=color id=tcol value="${TCOL==='gold'?'#f2b632':TCOL}"></div>`;
   document.querySelectorAll('.sw').forEach(b=>b.onclick=()=>setCol(b.dataset.v));$('#tcol').onchange=()=>setCol($('#tcol').value);}
 function setCol(v){TCOL=v;v==='gold'?localStorage.removeItem('nn_tcolor'):localStorage.setItem('nn_tcolor',v);renderCols();redraw();}
 renderCols();

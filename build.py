@@ -28,7 +28,10 @@ with zipfile.ZipFile(f'{W}/{ZIP}','w') as z:
     for k,i in enumerate(items): z.write(f"{W}/{i['img']}",f"{k+1:02d}-{i['dl']}")
 P0=d['posters'][0]
 js_data=json.dumps(dict(date=DATE,D8=D8,fx=fx,idx=idx,items=items,posters=d['posters'],bg_auto=d.get('bg_auto','newsroom'),bg_pool=d.get('bg_pool',[]),fxnote=d['fx_poster_note'],idxnote=d['idx_note'],sources=d['sources'],asof=d['asof']),ensure_ascii=False)
-html=f"""<!doctype html><html lang=zh-Hant><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+import hashlib,time
+VER=hashlib.md5(open(f'{W}/app.js','rb').read()).hexdigest()[:8]+'-'+time.strftime('%m%d%H%M')
+html=f"""<!doctype html><html lang=zh-Hant><head><meta charset=utf-8><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0>
+<meta name=viewport content="width=device-width,initial-scale=1">
 <title>A1 要聞 | {DATE} | {SITE}</title>
 <link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel=stylesheet>
@@ -85,6 +88,10 @@ h2 small{{font-weight:400;font-size:12px;color:#777;margin-left:6px}}
 .cr2{{display:flex;align-items:center;gap:5px;flex-wrap:wrap;padding:5px 0;border-bottom:1px solid #eee;font:500 13px var(--fS)}} .cn2{{width:100%;color:#444}}
 .sw{{width:28px;height:28px;border:1px solid #999;border-radius:50%;cursor:pointer;padding:0}} .sw.on{{outline:3px solid #e60012;outline-offset:1px}}
 #cols input[type=color]{{width:36px;height:30px;border:1px solid #bbb;padding:0;background:#fff}}
+.tbox{{border:1px solid #222;background:#fff;padding:8px 10px;margin:8px 0}}
+.trow{{display:flex;align-items:center;gap:8px;margin:4px 0}} .trow label{{flex:none;width:4.5em;font:700 14px var(--fT)}}
+.trow input,.trow select{{flex:1;min-width:0;font:500 16px 'Noto Sans TC',sans-serif;padding:6px 8px;border:1px solid #999;border-radius:4px;background:#fff;color:#222;-webkit-appearance:menulist}}
+.trow .btn{{flex:none;padding:5px 8px;font-size:12px}}
 footer{{font-family:var(--fN),var(--fS);font-weight:500;margin-top:22px;border-top:4px double #222;padding-top:10px;font-size:12px;line-height:1.7;color:#555;display:flex;gap:10px;align-items:center}}
 footer img{{width:52px;height:auto;flex:none}}
 </style></head><body><div class=paper>
@@ -108,14 +115,16 @@ footer img{{width:52px;height:auto;flex:none}}
 
 <h2>今日海報<small>五大重點頭條</small></h2>
 <div class=tabs id=ptabs>{ptabs}</div>
+<div class=tip style="color:#e60012;font-weight:700">想自訂標題、標題字體、顏色或背景？請點上方「自選頭條」。</div>
 <div id=pstatic class=pv><img id=pimg src="img/{P0[0]}" alt="每日報報 {P0[1]}"><div class=vbar style="justify-content:center"><a class="btn red" id=pdl href="img/{P0[0]}" download="{D8}-每日報報-{P0[1]}.png" style="margin:0">下載圖片</a></div></div>
 <div id=pcustom style="display:none">
-<div class=tip>海報標題：<input id=ptitle maxlength=12 style="width:9em;font:700 15px 'Noto Sans TC',sans-serif;padding:3px 6px;border:1px solid #bbb"> <select id=tfont style="font:500 13px 'Noto Sans TC',sans-serif;padding:3px;max-width:100%;margin-top:4px"></select> <button class=btn id=ptreset style="padding:3px 10px;font-size:12px">還原每日報報</button></div>
+<div class=tbox><div class=trow><label for=ptitle>海報標題</label><input id=ptitle maxlength=12><button class=btn id=ptreset>還原每日報報</button></div>
+<div class=trow><label for=tfont>標題字體</label><select id=tfont><option value="">預設（每日報報＝金色字圖）</option><option value=heavy>思源黑體 Heavy</option><option value=bold>思源黑體 Bold</option><option value=medium>思源黑體 Medium</option><option value=serif600>思源宋體 SemiBold</option><option value=serif400>思源宋體 Regular</option><option value=inter>Inter</option></select></div>
+<div id=cols></div></div>
 <div class=tip>勾選 5 則頭條（預設為今日五大重點），用 ▲▼ 調整順序，再按「產生海報」。</div>
 <div class=pick id=pick></div>
 <div class=tip style="margin-top:12px">背景（預設「自動」＝今日依新聞類別自動挑選）：<button class=btn id=bgreset style="padding:3px 10px;font-size:12px">重設為自動</button></div>
 <div class=bgs id=bgs></div>
-<div id=cols></div>
 <div class=vbar><span class=cnt id=pcnt></span><button class="btn red" id=gen style="margin-left:auto">產生海報</button></div>
 <div class=pv id=pout></div>
 </div>
@@ -123,7 +132,7 @@ footer img{{width:52px;height:auto;flex:none}}
 <footer><img src="img/logo.png" alt="大心團隊"><div>資料來源：臺灣銀行牌告匯率（rate.bot.com.tw）、臺灣證券交易所、Reuters／Investing.com、中央社、工商時報。<br>資料截至 {d['asof']}（台北時間）。內容僅供參考，不構成投資建議。</div></footer>
 </div>
 <script>const D={js_data};</script>
-<script src="app.js"></script>
+<script src="app.js?v={VER}"></script>
 </body></html>"""
 open(f'{W}/index.html','w').write(html)
 print("built",len(items),"items",ZIP)
