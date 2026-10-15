@@ -47,13 +47,24 @@ renderPick();
 
 const img=src=>new Promise((r,j)=>{const m=new Image();m.onload=()=>r(m);m.onerror=j;m.src=src;});
 function rr(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.arcTo(x+w,y,x+w,y+h,r);c.arcTo(x+w,y+h,x,y+h,r);c.arcTo(x,y+h,x,y,r);c.arcTo(x,y,x+w,y,r);c.closePath();}
-const F='"Noto Sans TC","Noto Sans CJK TC",sans-serif';
+const FONTS={sans:'"Noto Sans TC","Noto Sans CJK TC",sans-serif',serif:'"Noto Serif TC","Noto Serif CJK TC",serif',jh:'"Microsoft JhengHei","微軟正黑體","Noto Sans TC","Noto Sans CJK TC",sans-serif'};
+let fkey=localStorage.getItem('nn_font');if(!FONTS[fkey])fkey='sans';let F=FONTS[fkey];
+let bgkey=localStorage.getItem('nn_bg');if(!D.bg_pool.some(b=>b[0]===bgkey))bgkey=null;
+const bgId=()=>bgkey||D.bg_auto;
+function applyFont(){F=FONTS[fkey];document.body.style.setProperty('--f',F);document.querySelectorAll('.fbtn').forEach(b=>b.classList.toggle('on',b.dataset.f===fkey));}
+document.querySelectorAll('.fbtn').forEach(b=>b.onclick=()=>{fkey=b.dataset.f;localStorage.setItem('nn_font',fkey);applyFont();redraw();});
+applyFont();
+function renderBgs(){$('#bgs').innerHTML=D.bg_pool.map(([id,n])=>`<button class="bg${id===bgId()?' on':''}" data-id="${id}"><img src="img/bg/${id}-t.jpg" alt="${n}">${id===D.bg_auto?'<i>自動</i>':''}<span>${n}</span></button>`).join('');
+  document.querySelectorAll('.bg').forEach(b=>b.onclick=()=>{bgkey=b.dataset.id===D.bg_auto?null:b.dataset.id;bgkey?localStorage.setItem('nn_bg',bgkey):localStorage.removeItem('nn_bg');renderBgs();redraw();});}
+$('#bgreset').onclick=()=>{bgkey=null;localStorage.removeItem('nn_bg');renderBgs();redraw();};
+renderBgs();
+function redraw(){if($('#pout img'))$('#gen').click();}
 function fit(c,t,max,size,w){let s=size;do{c.font=`${w} ${s}px ${F}`;s-=1}while(c.measureText(t).width>max&&s>18);}
 async function poster(ids){
   const heads=ids.map(id=>byId[id].short);
   const txt=heads.join('')+'每日報報五大重點財經頭條美元澳幣日圓人民幣道瓊標普那斯達克台股加權0123456789.,+-()%（）／：；臺銀即期賣出匯率新台幣外幣漲跌較美股為東收盤紅綠資料來源截至台北時間灣證券交易所中央社工商時報ReutersInvesting.comNewsUSDAUDJPYCNY';
-  try{await Promise.all(['900','700','500'].map(w=>document.fonts.load(`${w} 40px "Noto Sans TC"`,txt)));}catch(e){}
-  const [bg,title,logo]=await Promise.all([img('img/bg-v4.jpg'),img('img/title.png'),img('img/logo.png')]);
+  try{await Promise.all(['900','700','500'].map(w=>document.fonts.load(`${w} 40px ${F}`,txt)));await document.fonts.ready;}catch(e){}
+  const [bg,title,logo]=await Promise.all([img(`img/bg/${bgId()}.jpg`),img('img/title.png'),img('img/logo.png')]);
   const cv=document.createElement('canvas');cv.width=1080;cv.height=1920;const c=cv.getContext('2d');
   c.drawImage(bg,0,0,1080,1920);
   const tw=800,th=tw*title.height/title.width;c.drawImage(title,(1080-tw)/2,70,tw,th);
@@ -92,7 +103,7 @@ $('#gen').onclick=async()=>{
   $('#gen').textContent='產生中…';
   try{const cv=await poster(order.slice(0,5));
     const blob=await new Promise(r=>cv.toBlob(r,'image/png'));const url=URL.createObjectURL(blob);
-    $('#pout').innerHTML=`<img src="${url}" alt="自選每日報報海報"><div class=vbar style="justify-content:center"><a class="btn red" href="${url}" download="${D.D8}-每日報報-自選.png" style="margin:0">下載圖片</a></div><div class=tip>手機可長按圖片儲存。</div>`;
+    $('#pout').innerHTML=`<img src="${url}" alt="自選每日報報海報"><div class=vbar style="justify-content:center"><a class="btn red" href="${url}" download="${D.D8}-每日報報-自選-${bgId()}-${fkey}.png" style="margin:0">下載圖片</a></div><div class=tip>手機可長按圖片儲存。</div>`;
   }catch(e){$('#pout').textContent='產生失敗：'+e;}
   $('#gen').textContent='產生海報';
 };
