@@ -1,10 +1,10 @@
 {
- "date": "2026.10.17",
- "asof": "2026/10/17 06:17",
- "fx_note": "2026/10/17 05:31 掛牌（臺銀牌告）；漲跌較 10/15 末次掛牌。紅漲綠跌。",
- "fx_poster_note": "臺銀即期賣出匯率（新台幣／1外幣）10/17 05:31；漲跌較 10/15 末次",
- "idx_note": "美股為美東 10/16 收盤；台股為 10/16 收盤",
- "sources": "臺灣銀行牌告匯率、臺灣證券交易所、中央社、工商時報、今周刊、天下雜誌、Reuters／AP",
+ "date": "2026.10.18",
+ "asof": "2026/10/18 06:16",
+ "fx_note": "2026/10/18 05:31 掛牌（臺銀非營業時間牌告，週末沿用 10/16 收盤牌價）；漲跌較 10/15 末次掛牌。紅漲綠跌。",
+ "fx_poster_note": "臺銀即期賣出匯率（新台幣／1外幣）10/18 05:31；漲跌較 10/15 末次",
+ "idx_note": "美股為美東 10/16（週五）收盤；台股為 10/16（週五）收盤",
+ "sources": "臺灣銀行牌告匯率、臺灣證券交易所、中央社、工商時報、今周刊、天下雜誌",
  "fx": [
   [
    "美元",
@@ -64,165 +64,165 @@
  ],
  "items": [
   {
-   "id": "taiex16",
+   "id": "sox",
    "cat": "財經",
    "top": 1,
-   "title": "台積電收黑PCB強彈　台股量縮上漲141點收復47000點",
-   "short": "台股反彈141點　收復47000點",
-   "src": "中央社",
-   "time": "2026/10/16 14:36",
-   "url": "https://www.cna.com.tw/news/afe/202610160166.aspx"
-  },
-  {
-   "id": "gdp",
-   "cat": "財經",
-   "top": 2,
-   "title": "三度上修　中經院：今年經濟成長12.16％",
-   "short": "中經院三度上修　今年GDP成長12.16%",
+   "title": "費半狂瀉近4％　恐慌指數升",
+   "short": "費半連8黑狂瀉近4%　恐慌指數升",
    "src": "工商時報",
-   "time": "2026/10/17 03:00",
-   "url": "https://www.ctee.com.tw/news/20261017700033-439901"
+   "time": "2026/10/18 03:00",
+   "url": "https://www.ctee.com.tw/news/20261018700029-439901"
   },
   {
-   "id": "nhi65",
+   "id": "linepay",
+   "cat": "保險理財",
+   "top": 2,
+   "title": "LINE Pay個資外洩？暗網爆75萬筆「只賣1萬2」…姓名、手機號、身分證地址生日資料哪來？公司發聲報案",
+   "short": "暗網兜售75萬筆個資　LINE Pay否認",
+   "src": "今周刊",
+   "time": "2026/10/17 22:11",
+   "url": "https://www.businesstoday.com.tw/article/category/183015/post/202610170014/"
+  },
+  {
+   "id": "dementia",
    "cat": "保險理財",
    "top": 3,
-   "title": "長者有條件免健保費　衛福部估20至64歲每人每年多繳2700元",
-   "short": "長者免健保費　青壯年每人年多繳2690元",
-   "src": "中央社",
-   "time": "2026/10/16 19:52",
-   "url": "https://www.cna.com.tw/news/ahel/202610160316.aspx"
+   "title": "失智風險增　提前打造照護網",
+   "short": "失智風險增　分階段保障提前規劃",
+   "src": "工商時報",
+   "time": "2026/10/18 03:00",
+   "url": "https://www.ctee.com.tw/news/20261018700090-439901"
   },
   {
-   "id": "retire3",
-   "cat": "保險理財",
+   "id": "acp",
+   "cat": "健康醫療",
    "top": 4,
-   "title": "別到80、90歲還要煩惱選股！退休適合投資什麼？「財務自由教父」公開3個投資工具",
-   "short": "退休投資只要3種工具　股票不低於5成",
-   "src": "今周刊",
-   "time": "2026/10/16 11:38",
-   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202610160010/"
+   "title": "調查指逾半有預立醫療意願者未與家人談　衛福部籲先說好",
+   "short": "逾半未與家人談　預立醫療先說好",
+   "src": "中央社",
+   "time": "2026/10/17 12:54",
+   "url": "https://www.cna.com.tw/news/ahel/202610170063.aspx"
   },
   {
-   "id": "greentea",
+   "id": "coffee",
    "cat": "健康醫療",
    "top": 5,
-   "title": "綠茶和咖啡，誰更抗發炎？",
-   "short": "綠茶咖啡誰抗發炎　營養師：綠茶勝",
+   "title": "咖啡一天喝幾杯最健康？35萬人大型研究揭密：喝對肝硬化風險下降35%",
+   "short": "每天3至4杯咖啡　肝硬化風險降35%",
    "src": "天下雜誌",
-   "time": "2026/10/16 15:57",
-   "url": "https://www.cw.com.tw/article/5143319"
+   "time": "2026/10/14",
+   "url": "https://www.cw.com.tw/article/5143204"
   },
   {
-   "id": "twd",
+   "id": "twd33",
    "cat": "財經",
-   "title": "熱錢大出逃　新台幣續挫寫逾1年單週最大貶幅",
-   "short": "新台幣收32.338元　逾1年最大週貶幅",
+   "title": "多頭信心鬆動　台幣恐探33元",
+   "short": "外資撤出　新台幣恐探33元",
+   "src": "工商時報",
+   "time": "2026/10/18 03:00",
+   "url": "https://www.ctee.com.tw/news/20261018700056-439901"
+  },
+  {
+   "id": "kumamoto",
+   "cat": "財經",
+   "title": "台積電在熊本建3奈米廠　日本批准補助資格",
+   "short": "台積熊本二廠　獲准生產3奈米",
    "src": "中央社",
-   "time": "2026/10/16 18:03",
-   "url": "https://www.cna.com.tw/news/afe/202610160271.aspx"
+   "time": "2026/10/17 14:12",
+   "url": "https://www.cna.com.tw/news/afe/202610170082.aspx"
   },
   {
-   "id": "warsh",
+   "id": "oil",
    "cat": "財經",
-   "title": "《國際金融》全球央行正「同步緊縮」　華許認了",
-   "short": "華許不預判利率　認全球同步緊縮",
-   "src": "工商時報",
-   "time": "2026/10/16 15:15",
-   "url": "https://www.ctee.com.tw/news/20261016701427-430701"
-  },
-  {
-   "id": "tsmc543",
-   "cat": "財經",
-   "title": "台積電法說後股價下跌，外資倒貨3025億他揭殺盤真相",
-   "short": "外資倒貨後　分析師教543階梯布局",
-   "src": "今周刊",
-   "time": "2026/10/16 10:30",
-   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610160003/"
-  },
-  {
-   "id": "cwweekly",
-   "cat": "財經",
-   "title": "財經一週：台積沒有救全村、柴油短缺恐至明年、Netflix四年來最大裁員",
-   "short": "台積沒救全村　柴油短缺恐至2027",
-   "src": "天下雜誌",
-   "time": "2026/10/16 13:48",
-   "url": "https://www.cw.com.tw/article/5143316"
-  },
-  {
-   "id": "tisa",
-   "cat": "保險理財",
-   "title": "金管會施政六大方向出爐　擴大TISA參與　租稅機制受關注",
-   "short": "金管會擴大TISA　研議租稅優惠",
-   "src": "工商時報",
-   "time": "2026/10/17 04:10",
-   "url": "https://www.chinatimes.com/newspapers/20261017000191-260202"
-  },
-  {
-   "id": "rmb",
-   "cat": "保險理財",
-   "title": "美元磁吸效應　人民幣存款終止連三紅",
-   "short": "美元磁吸　人民幣存款終止連三升",
-   "src": "工商時報",
-   "time": "2026/10/17 04:10",
-   "url": "https://www.chinatimes.com/newspapers/20261017000251-260205"
-  },
-  {
-   "id": "munger",
-   "cat": "保險理財",
-   "title": "查理蒙格：想致富就先存到10萬美元",
-   "short": "蒙格：先存到第一個10萬美元",
-   "src": "天下雜誌",
-   "time": "2026/10/15 18:18",
-   "url": "https://www.cw.com.tw/article/5143302"
-  },
-  {
-   "id": "crps",
-   "cat": "健康醫療",
-   "title": "骨折癒合卻持續劇痛　神經阻斷術助重獲新生",
-   "short": "骨折癒合仍劇痛　神經阻斷術解痛",
+   "title": "國際油價高檔震盪　中油下週汽柴油價格不調整",
+   "short": "中油下週汽柴油價格不調整",
    "src": "中央社",
-   "time": "2026/10/16 17:13",
-   "url": "https://www.cna.com.tw/news/ahel/202610160243.aspx"
+   "time": "2026/10/17 17:13",
+   "url": "https://www.cna.com.tw/news/ahel/202610170134.aspx"
   },
   {
-   "id": "vessel",
-   "cat": "健康醫療",
-   "title": "不到50歲血管竟像70歲老人！醫揭「3大習慣」傷血管",
-   "short": "不到50歲血管像70歲　3習慣傷血管",
+   "id": "tsmcadr",
+   "cat": "財經",
+   "title": "台積電ADR周跌快9%，外資連8天砍2330逾11萬張…股價跌了魏哲家坦言心情不太好：腦袋有點空",
+   "short": "外資連8天賣台積電逾11萬張",
    "src": "今周刊",
-   "time": "2026/10/16 16:12",
-   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202610160027/"
+   "time": "2026/10/17 12:27",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610170004/"
   },
   {
-   "id": "exercise",
-   "cat": "健康醫療",
-   "title": "中年後運動指南：肌力訓練、深蹲、吊單槓與跳繩的10個常見問題",
-   "short": "中年後運動　肌力訓練不可少",
+   "id": "auo",
+   "cat": "財經",
+   "title": "友達運動會／三大支柱走向「類控股公司」！30週年宣示轉型加速，彭双浪：告別吃大鍋飯時代",
+   "short": "友達轉型類控股　告別大鍋飯",
+   "src": "今周刊",
+   "time": "2026/10/17 16:00",
+   "url": "https://www.businesstoday.com.tw/article/category/183015/post/202610170010/"
+  },
+  {
+   "id": "eutrade",
+   "cat": "財經",
+   "title": "歐中貿易戰再升溫！歐盟磨刀霍霍，研擬「一鍵封殺」中國",
+   "short": "歐盟研擬一鍵封殺　歐中貿易戰升溫",
    "src": "天下雜誌",
-   "time": "2026/10/16 16:45",
-   "url": "https://www.cw.com.tw/article/5143320"
+   "time": "2026/10/17",
+   "url": "https://www.cw.com.tw/article/5143322"
+  },
+  {
+   "id": "elderlife",
+   "cat": "保險理財",
+   "title": "高齡壽險布局　聚焦資產配置",
+   "short": "長壽時代　壽險聚焦資產配置",
+   "src": "工商時報",
+   "time": "2026/10/18 03:00",
+   "url": "https://www.ctee.com.tw/news/20261018700087-439901"
+  },
+  {
+   "id": "scam",
+   "cat": "保險理財",
+   "title": "長輩被詐騙不是因為判斷力下降！解析5大心理破口，為什麼愈勸反而愈不聽？",
+   "short": "長輩受騙不是糊塗　5大心理破口",
+   "src": "天下雜誌",
+   "time": "2026/10/16",
+   "url": "https://www.cw.com.tw/article/5143306"
+  },
+  {
+   "id": "flu",
+   "cat": "健康醫療",
+   "title": "「左流右新」打氣旺　流感疫苗半個月接種破300萬劑",
+   "short": "流感疫苗半個月接種破300萬劑",
+   "src": "中央社",
+   "time": "2026/10/17 11:14",
+   "url": "https://www.cna.com.tw/news/ahel/202610170037.aspx"
+  },
+  {
+   "id": "walk",
+   "cat": "健康醫療",
+   "title": "一天什麼時候散步最好？健身專家解答",
+   "short": "散步沒有最佳時段　持續最重要",
+   "src": "天下雜誌",
+   "time": "2026/10/15",
+   "url": "https://www.cw.com.tw/article/5143303"
   }
  ],
  "posters": [
   [
-   "poster-1-sage-light.png",
-   "晨光青綠"
+   "poster-1-globe-night.png",
+   "金色地球"
   ],
   [
-   "poster-2-teal-gold.png",
-   "藍綠金"
+   "poster-2-newsroom.png",
+   "新聞棚"
   ],
   [
-   "poster-3-soft-green.png",
-   "柔和綠"
+   "poster-3-navy.png",
+   "經典深藍"
   ],
   [
-   "poster-4-emerald-pulse.png",
-   "翡翠心電"
+   "poster-4-navy-chart.png",
+   "深藍K線"
   ]
  ],
- "bg_auto": "sage-light",
+ "bg_auto": "globe-night",
  "bg_pool": [
   [
    "newsroom",
@@ -273,5 +273,5 @@
    "金色地球"
   ]
  ],
- "bg_dominant": "財經"
+ "bg_dominant": "保險理財"
 }
