@@ -1,8 +1,8 @@
 {
- "date": "2026.10.18",
- "asof": "2026/10/18 06:16",
- "fx_note": "2026/10/18 05:31 掛牌（臺銀非營業時間牌告，週末沿用 10/16 收盤牌價）；漲跌較 10/15 末次掛牌。紅漲綠跌。",
- "fx_poster_note": "臺銀即期賣出匯率（新台幣／1外幣）10/18 05:31；漲跌較 10/15 末次",
+ "date": "2026.10.19",
+ "asof": "2026/10/19 06:22",
+ "fx_note": "2026/10/19 05:51 掛牌（臺銀非營業時間牌告，台北匯市尚未開盤，屬盤前報價；09:07 例行更新會改用營業時間牌價）；漲跌較 10/16（週五）營業時間收盤 16:01 掛牌。紅漲綠跌。",
+ "fx_poster_note": "臺銀即期賣出匯率（新台幣／1外幣）10/19 05:51 盤前；漲跌較 10/16 收盤",
  "idx_note": "美股為美東 10/16（週五）收盤；台股為 10/16（週五）收盤",
  "sources": "臺灣銀行牌告匯率、臺灣證券交易所、中央社、工商時報、今周刊、天下雜誌",
  "fx": [
@@ -10,25 +10,25 @@
    "美元",
    "USD",
    "32.395",
-   "32.34"
+   "32.39"
   ],
   [
    "澳幣",
    "AUD",
-   "22.63",
-   "22.44"
+   "22.68",
+   "22.61"
   ],
   [
    "日圓",
    "JPY",
    "0.2072",
-   "0.207"
+   "0.2067"
   ],
   [
    "人民幣",
    "CNY",
-   "4.865",
-   "4.854"
+   "4.866",
+   "4.861"
   ]
  ],
  "idx": [
@@ -64,165 +64,165 @@
  ],
  "items": [
   {
-   "id": "sox",
+   "id": "tsmcq",
    "cat": "財經",
    "top": 1,
-   "title": "費半狂瀉近4％　恐慌指數升",
-   "short": "費半連8黑狂瀉近4%　恐慌指數升",
-   "src": "工商時報",
-   "time": "2026/10/18 03:00",
-   "url": "https://www.ctee.com.tw/news/20261018700029-439901"
+   "title": "台股周一恐下殺千點？台積電股價面臨季線2420元保衛戰，分析師曝勝率、布局時機在此時",
+   "short": "台積電季線保衛戰　台股周一承壓",
+   "src": "今周刊",
+   "time": "2026/10/18 16:30",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610180009/"
   },
   {
-   "id": "linepay",
+   "id": "fyp",
    "cat": "保險理財",
    "top": 2,
-   "title": "LINE Pay個資外洩？暗網爆75萬筆「只賣1萬2」…姓名、手機號、身分證地址生日資料哪來？公司發聲報案",
-   "short": "暗網兜售75萬筆個資　LINE Pay否認",
-   "src": "今周刊",
-   "time": "2026/10/17 22:11",
-   "url": "https://www.businesstoday.com.tw/article/category/183015/post/202610170014/"
+   "title": "壽險新契約保費　估突破1.17兆",
+   "short": "前九月壽險新契約保費估破1.17兆",
+   "src": "工商時報",
+   "time": "2026/10/19 03:00",
+   "url": "https://www.ctee.com.tw/news/20261019700116-439901"
   },
   {
-   "id": "dementia",
+   "id": "nhifee",
    "cat": "保險理財",
    "top": 3,
-   "title": "失智風險增　提前打造照護網",
-   "short": "失智風險增　分階段保障提前規劃",
-   "src": "工商時報",
-   "time": "2026/10/18 03:00",
-   "url": "https://www.ctee.com.tw/news/20261018700090-439901"
-  },
-  {
-   "id": "acp",
-   "cat": "健康醫療",
-   "top": 4,
-   "title": "調查指逾半有預立醫療意願者未與家人談　衛福部籲先說好",
-   "short": "逾半未與家人談　預立醫療先說好",
+   "title": "部分長者免健保費　石崇良：保費可能調漲轉嫁15到64歲",
+   "short": "長者免健保費　衛福部：保費恐漲",
    "src": "中央社",
-   "time": "2026/10/17 12:54",
-   "url": "https://www.cna.com.tw/news/ahel/202610170063.aspx"
+   "time": "2026/10/18 10:51",
+   "url": "https://www.cna.com.tw/news/ahel/202610180038.aspx"
   },
   {
-   "id": "coffee",
+   "id": "fxsell",
+   "cat": "財經",
+   "top": 4,
+   "title": "穩匯！央行促出口商擴大拋匯",
+   "short": "新台幣急貶　央行促出口商拋匯",
+   "src": "工商時報",
+   "time": "2026/10/19 03:00",
+   "url": "https://www.ctee.com.tw/news/20261019700032-439901"
+  },
+  {
+   "id": "bmd",
    "cat": "健康醫療",
    "top": 5,
-   "title": "咖啡一天喝幾杯最健康？35萬人大型研究揭密：喝對肝硬化風險下降35%",
-   "short": "每天3至4杯咖啡　肝硬化風險降35%",
-   "src": "天下雜誌",
-   "time": "2026/10/14",
-   "url": "https://www.cw.com.tw/article/5143204"
-  },
-  {
-   "id": "twd33",
-   "cat": "財經",
-   "title": "多頭信心鬆動　台幣恐探33元",
-   "short": "外資撤出　新台幣恐探33元",
-   "src": "工商時報",
-   "time": "2026/10/18 03:00",
-   "url": "https://www.ctee.com.tw/news/20261018700056-439901"
-  },
-  {
-   "id": "kumamoto",
-   "cat": "財經",
-   "title": "台積電在熊本建3奈米廠　日本批准補助資格",
-   "short": "台積熊本二廠　獲准生產3奈米",
+   "title": "健保給付骨密度檢查　停經、類固醇使用者終生最多3次",
+   "short": "骨密度檢查健保給付　終生最多3次",
    "src": "中央社",
-   "time": "2026/10/17 14:12",
-   "url": "https://www.cna.com.tw/news/afe/202610170082.aspx"
+   "time": "2026/10/18 16:22",
+   "url": "https://www.cna.com.tw/news/ahel/202610180113.aspx"
   },
   {
-   "id": "oil",
+   "id": "imfjp",
    "cat": "財經",
-   "title": "國際油價高檔震盪　中油下週汽柴油價格不調整",
-   "short": "中油下週汽柴油價格不調整",
+   "title": "日圓貶值拖累　IMF預測日本名目GDP明年退居全球第6",
+   "short": "IMF：日本GDP明年退居第6",
    "src": "中央社",
-   "time": "2026/10/17 17:13",
-   "url": "https://www.cna.com.tw/news/ahel/202610170134.aspx"
+   "time": "2026/10/18 14:07",
+   "url": "https://www.cna.com.tw/news/afe/202610180090.aspx"
   },
   {
-   "id": "tsmcadr",
+   "id": "debt",
    "cat": "財經",
-   "title": "台積電ADR周跌快9%，外資連8天砍2330逾11萬張…股價跌了魏哲家坦言心情不太好：腦袋有點空",
-   "short": "外資連8天賣台積電逾11萬張",
+   "title": "全球債務危機？黑石集團總裁警告：英國、法國、歐洲等面臨財政風險，比美國更嚴峻！",
+   "short": "黑石總裁：歐洲財政風險更嚴峻",
    "src": "今周刊",
-   "time": "2026/10/17 12:27",
-   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610170004/"
+   "time": "2026/10/18 11:30",
+   "url": "https://www.businesstoday.com.tw/article/category/183025/post/202610180005/"
   },
   {
-   "id": "auo",
+   "id": "france",
    "cat": "財經",
-   "title": "友達運動會／三大支柱走向「類控股公司」！30週年宣示轉型加速，彭双浪：告別吃大鍋飯時代",
-   "short": "友達轉型類控股　告別大鍋飯",
-   "src": "今周刊",
-   "time": "2026/10/17 16:00",
-   "url": "https://www.businesstoday.com.tw/article/category/183015/post/202610170010/"
-  },
-  {
-   "id": "eutrade",
-   "cat": "財經",
-   "title": "歐中貿易戰再升溫！歐盟磨刀霍霍，研擬「一鍵封殺」中國",
-   "short": "歐盟研擬一鍵封殺　歐中貿易戰升溫",
+   "title": "法國暴動》從黃背心到全歐抗爭：法國為什麼走到今天這一步？",
+   "short": "法國暴動　財政緊縮點燃民怨",
    "src": "天下雜誌",
-   "time": "2026/10/17",
-   "url": "https://www.cw.com.tw/article/5143322"
+   "time": "2026/10/19",
+   "url": "https://www.cw.com.tw/article/5143325"
   },
   {
-   "id": "elderlife",
+   "id": "fxreserve",
    "cat": "保險理財",
-   "title": "高齡壽險布局　聚焦資產配置",
-   "short": "長壽時代　壽險聚焦資產配置",
+   "title": "六大壽險外價金　9月增逾百億",
+   "short": "六大壽險外價金逼近6千億",
    "src": "工商時報",
-   "time": "2026/10/18 03:00",
-   "url": "https://www.ctee.com.tw/news/20261018700087-439901"
+   "time": "2026/10/19 03:00",
+   "url": "https://www.ctee.com.tw/news/20261019700046-439901"
   },
   {
-   "id": "scam",
+   "id": "etf56",
    "cat": "保險理財",
-   "title": "長輩被詐騙不是因為判斷力下降！解析5大心理破口，為什麼愈勸反而愈不聽？",
-   "short": "長輩受騙不是糊塗　5大心理破口",
-   "src": "天下雜誌",
-   "time": "2026/10/16",
-   "url": "https://www.cw.com.tw/article/5143306"
+   "title": "0056配息1.72元除息日這天！含息報酬直逼0050、股價58元怎麼買？艾蜜莉教領每月5萬現金流",
+   "short": "0056季配1.72元　拆解退休現金流",
+   "src": "今周刊",
+   "time": "2026/10/18 20:30",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610180011/"
   },
   {
-   "id": "flu",
-   "cat": "健康醫療",
-   "title": "「左流右新」打氣旺　流感疫苗半個月接種破300萬劑",
-   "short": "流感疫苗半個月接種破300萬劑",
-   "src": "中央社",
-   "time": "2026/10/17 11:14",
-   "url": "https://www.cna.com.tw/news/ahel/202610170037.aspx"
-  },
-  {
-   "id": "walk",
-   "cat": "健康醫療",
-   "title": "一天什麼時候散步最好？健身專家解答",
-   "short": "散步沒有最佳時段　持續最重要",
+   "id": "munger",
+   "cat": "保險理財",
+   "title": "查理蒙格：想致富就先存到10萬美元",
+   "short": "蒙格：先存到第一個10萬美元",
    "src": "天下雜誌",
    "time": "2026/10/15",
-   "url": "https://www.cw.com.tw/article/5143303"
+   "url": "https://www.cw.com.tw/article/5143302"
+  },
+  {
+   "id": "sleep",
+   "cat": "健康醫療",
+   "title": "高雄衛生局推安心睡口訣　提醒照顧者注意嬰兒睡眠",
+   "short": "嬰兒安心睡　牢記520口訣",
+   "src": "中央社",
+   "time": "2026/10/18 14:47",
+   "url": "https://www.cna.com.tw/news/ahel/202610180096.aspx"
+  },
+  {
+   "id": "tea",
+   "cat": "健康醫療",
+   "title": "綠茶和咖啡，誰更抗發炎？",
+   "short": "綠茶vs咖啡　綠茶抗發炎勝出",
+   "src": "天下雜誌",
+   "time": "2026/10/16",
+   "url": "https://www.cw.com.tw/article/5143319"
+  },
+  {
+   "id": "midage",
+   "cat": "健康醫療",
+   "title": "中年後運動指南：肌力訓練、深蹲、吊單槓與跳繩的10個常見問題",
+   "short": "中年後運動　肌力訓練不能少",
+   "src": "天下雜誌",
+   "time": "2026/10/16",
+   "url": "https://www.cw.com.tw/article/5143320"
+  },
+  {
+   "id": "sklhosp",
+   "cat": "健康醫療",
+   "title": "桂蘭大樓啟用　吳東進：全員加薪",
+   "short": "新光桂蘭大樓啟用　全員加薪4%",
+   "src": "工商時報",
+   "time": "2026/10/19 03:00",
+   "url": "https://www.ctee.com.tw/news/20261019700087-439901"
   }
  ],
  "posters": [
   [
-   "poster-1-globe-night.png",
-   "金色地球"
+   "poster-1-city-night.png",
+   "城市夜景"
   ],
   [
-   "poster-2-newsroom.png",
-   "新聞棚"
+   "poster-2-midnight-aurora.png",
+   "午夜極光"
   ],
   [
-   "poster-3-navy.png",
-   "經典深藍"
+   "poster-3-gold-finance.png",
+   "金色財經"
   ],
   [
-   "poster-4-navy-chart.png",
-   "深藍K線"
+   "poster-4-teal-brand.png",
+   "大心藍綠"
   ]
  ],
- "bg_auto": "globe-night",
+ "bg_auto": "city-night",
  "bg_pool": [
   [
    "newsroom",
@@ -273,5 +273,5 @@
    "金色地球"
   ]
  ],
- "bg_dominant": "保險理財"
+ "bg_dominant": "財經"
 }
