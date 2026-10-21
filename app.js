@@ -109,7 +109,7 @@ async function poster(ids){
     c.textAlign='left';c.font=`900 36px ${F_('T')}`;c.fillText(n,x+cardW/2-(nw+cw)/2,y+56);c.font=`600 22px ${INTER}`;c.fillStyle='#555';c.fillText(' '+code,x+cardW/2-(nw+cw)/2+nw,y+56);
     c.textAlign='center';c.strokeStyle='rgba(0,0,0,.25)';c.lineWidth=2;c.beginPath();c.moveTo(x+14,y+82);c.lineTo(x+cardW-14,y+82);c.stroke();
     c.fillStyle='#111111';fit(c,v,cardW-20,54,700,INTER);c.fillText(v,x+cardW/2,y+152);
-    c.fillStyle=u==='up'?'#d4001a':'#078a32';c.font=`600 28px ${INTER}`;c.fillText(a,x+cardW/2,y+200);c.fillText(`(${p})`,x+cardW/2,y+238);});
+    c.fillStyle=u==='up'?'#d4001a':u==='fl'?'#333333':'#078a32';c.font=`600 28px ${INTER}`;c.fillText(a,x+cardW/2,y+200);c.fillText(`(${p})`,x+cardW/2,y+238);});
   c.fillStyle='rgba(6,16,45,.6)';rr(c,140,742,800,40,8);c.fill();c.fillStyle='#e8eeff';fit(c,D.fxnote,780,22,500,F_('S'));c.fillText(D.fxnote,540,770);
   c.fillStyle='#ffffff';c.font=`900 56px ${F_('T')}`;c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;c.fillText('五大重點財經頭條',540,908);c.shadowBlur=0;
   heads.forEach((h,k)=>{const y=956+k*92;rr(c,60,y,960,74,16);c.fillStyle='rgba(8,18,50,.72)';c.fill();c.strokeStyle='#fff';c.lineWidth=3;c.stroke();
@@ -121,7 +121,7 @@ async function poster(ids){
     c.fillStyle='#111111';fit(c,n,cardW-20,38,900,F_('T'));c.fillText(n,x+cardW/2,y+58);
     c.strokeStyle='rgba(0,0,0,.25)';c.lineWidth=2;c.beginPath();c.moveTo(x+14,y+84);c.lineTo(x+cardW-14,y+84);c.stroke();
     fit(c,v,cardW-16,40,700,INTER);c.fillText(v,x+cardW/2,y+146);
-    c.fillStyle=u==='up'?'#d4001a':'#078a32';fit(c,a,cardW-16,34,600,INTER);c.fillText(a,x+cardW/2,y+200);c.font=`600 34px ${INTER}`;c.fillText(`(${p})`,x+cardW/2,y+248);});
+    c.fillStyle=u==='up'?'#d4001a':u==='fl'?'#333333':'#078a32';fit(c,a,cardW-16,34,600,INTER);c.fillText(a,x+cardW/2,y+200);c.font=`600 34px ${INTER}`;c.fillText(`(${p})`,x+cardW/2,y+248);});
   c.fillStyle='#e8eeff';c.font=`500 24px ${F_('S')}`;const n2=D.idxnote+'　紅漲綠跌';c.fillText(n2,540,1762);
   c.fillStyle='rgba(6,16,45,.65)';rr(c,30,1800,1020,96,10);c.fill();
   c.drawImage(logo,42,1803,90,90*logo.height/logo.width);

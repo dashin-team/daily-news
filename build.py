@@ -6,7 +6,7 @@ W='/workspace/news-web'; d=json.load(open(f'{W}/data.json'))
 SITE="南恩新聞報報"; DATE=d['date']; D8=DATE.replace('.','')
 WD="日一二三四五六"[datetime.date(*map(int,DATE.split('.'))).isoweekday()%7]
 def chg(v,p):
-    x=float(v)-float(p);n=max(len(v.split('.')[1]),len(p.split('.')[1]));return ("up" if x>0 else "dn"),f"{x:+.{n}f}",f"{x/float(p)*100:+.2f}%"
+    x=float(v)-float(p);n=max(len(v.split('.')[1]),len(p.split('.')[1]));x=0.0 if abs(x)<1e-12 else x;return ("up" if x>0 else "dn" if x<0 else "fl"),(f"{x:+.{n}f}" if x else f"{0:.{n}f}"),(f"{x/float(p)*100:+.2f}%" if x else "0.00%")
 fx=[[n,c,v,*chg(v,p)] for n,c,v,p in d['fx']]
 idx=[[n,v,dd,p,"up" if dd[0]=="+" else "dn"] for n,v,dd,p in d['idx']]
 items=d['items']
@@ -15,7 +15,7 @@ for it in items:
     assert os.path.exists(f"{W}/{it['img']}"),it['id']
 top=sorted([i for i in items if i.get('top')],key=lambda i:i['top'])
 e=H.escape
-fxh="".join(f'<div class=q><div class=qn>{n} <small>{c}</small></div><div class=qv>{v}</div><div class="{u} qd">{"▲" if u=="up" else "▼"} {a}（{b}）</div></div>' for n,c,v,u,a,b in fx)
+fxh="".join(f'<div class=q><div class=qn>{n} <small>{c}</small></div><div class=qv>{v}</div><div class="{u} qd">{"▲" if u=="up" else "▼" if u=="dn" else "－"} {a}（{b}）</div></div>' for n,c,v,u,a,b in fx)
 ixh="".join(f'<div class=q><div class=qn>{n}</div><div class=qv>{v}</div><div class="{u} qd">{"▲" if u=="up" else "▼"} {a}（{p}）</div></div>' for n,v,a,p,u in idx)
 hh="".join(f'<a class=hl href="{i["url"]}" target=_blank rel=noopener><span class=no>{k+1}</span><span class=ht>{e(i["title"])}<small>{i["src"]}｜{i["time"]}</small></span></a>' for k,i in enumerate(top))
 tabs='<button class="tab on" data-c="全部">全部</button>'+"".join(f'<button class=tab data-c="{c}">{c}</button>' for c in d['cats'])
@@ -50,7 +50,7 @@ h2 small{{font-weight:400;font-size:12px;color:#777;margin-left:6px}}
 .q{{border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:9px 10px}}
 .qn{{font-family:var(--fN),var(--fT);font-weight:700;font-size:14px;color:#333}} .qn small{{color:#888;font-weight:400}}
 .qv{{font-family:var(--fN);font-weight:700;font-size:24px;font-variant-numeric:tabular-nums;color:#111}}
-.qd{{font-family:var(--fN);font-size:13px;font-weight:600}} .up{{color:#e60012}} .dn{{color:#008a3a}}
+.qd{{font-family:var(--fN);font-size:13px;font-weight:600}} .up{{color:#e60012}} .dn{{color:#008a3a}} .fl{{color:#555}}
 .note{{font-family:var(--fN),var(--fS);font-weight:500;font-size:11.5px;color:#777;margin-top:5px;line-height:1.5}}
 .hl{{display:flex;gap:10px;text-decoration:none;color:#111;border-bottom:1px solid #ddd;padding:11px 0}}
 .no{{flex:none;font-family:var(--fN);font-weight:800;font-size:22px;color:#e60012;width:20px;line-height:1.2}}
