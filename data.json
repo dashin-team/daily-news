@@ -1,0 +1,174 @@
+{
+ "date": "2026.10.26",
+ "asof": "2026/10/26",
+ "idx_note": "美股為美東 10/23（週五）收盤；台股為 10/22（週四）收盤（10/23 颱風休市，10/26 連假，10/27 才開盤）",
+ "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Reuters／Investing.com",
+ "idx": [
+  ["道瓊", "52,215.16", "-652.82", "-1.23%"],
+  ["標普500", "7,623.68", "-39.75", "-0.52%"],
+  ["那斯達克", "25,955.34", "-53.52", "-0.21%"],
+  ["台股加權", "46,041.43", "-846.34", "-1.81%"]
+ ],
+ "cats": ["財經", "保險理財", "健康醫療"],
+ "items": [
+  {
+   "id": "fedearn",
+   "cat": "財經",
+   "title": "科技巨頭財報與Fed決策登場　美股漲勢面臨考驗",
+   "short": "科技巨頭財報　美股面臨考驗",
+   "src": "中央社",
+   "time": "2026/10/26",
+   "url": "https://www.cna.com.tw/news/aopl/202610260062.aspx",
+   "top": 1
+  },
+  {
+   "id": "asiastk",
+   "cat": "財經",
+   "title": "央行會議、企業財報揭曉前 亞股小跌 韓股10月已經大跌近19％",
+   "short": "亞股小跌　韓股10月跌近19%",
+   "src": "工商時報",
+   "time": "2026/10/26",
+   "url": "https://www.ctee.com.tw/news/20261026700291-430702"
+  },
+  {
+   "id": "fsell",
+   "cat": "財經",
+   "title": "台積電聯電、南亞科聯發科…台股開盤再殺撿誰？16檔外資狂砍、本益比跌回7月股災、KD賣超區「先蹲後跳」",
+   "short": "外資10月砍台股　逾8,200億",
+   "src": "今周刊",
+   "time": "2026/10/24",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610240005/",
+   "top": 2
+  },
+  {
+   "id": "twd328",
+   "cat": "財經",
+   "title": "台幣32.8元防線會破？美金匯率再來怎麼走？「台幣貶值將是一班停不了的列車」…何時回穩要看這件事",
+   "short": "台幣32.8元防線　貶值列車",
+   "src": "今周刊",
+   "time": "2026/10/25",
+   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202610250005/"
+  },
+  {
+   "id": "outflow",
+   "cat": "財經",
+   "title": "史上最大外資出逃、台幣淪最弱亞幣　央行總裁楊金龍的最新難題是什麼？",
+   "short": "外資出逃　台幣淪最弱亞幣",
+   "src": "天下雜誌",
+   "time": "2026/10/23",
+   "url": "https://www.cw.com.tw/article/5143374"
+  },
+  {
+   "id": "sox",
+   "cat": "財經",
+   "title": "費半逆勢收紅，賣壓結束？美銀示警11月中旬前避險",
+   "short": "費半逆勢收紅　美銀籲先避險",
+   "src": "天下雜誌",
+   "time": "2026/10/24",
+   "url": "https://www.cw.com.tw/article/5143446"
+  },
+  {
+   "id": "lifeprem",
+   "cat": "保險理財",
+   "title": "保險商品熱賣 壽險業前九月新契約保費估破1.17兆元 年增近六成",
+   "short": "壽險前九月保費　估破1.17兆",
+   "src": "工商時報",
+   "time": "2026/10/18",
+   "url": "https://www.ctee.com.tw/news/20261018700727-430305",
+   "top": 3
+  },
+  {
+   "id": "digins",
+   "cat": "保險理財",
+   "title": "申設數位保險公司 彭金隆曝3家遞件",
+   "short": "數位保險公司　3家正式遞件",
+   "src": "工商時報",
+   "time": "2026/10/20",
+   "url": "https://www.chinatimes.com/newspapers/20261020000205-260210"
+  },
+  {
+   "id": "apac",
+   "cat": "保險理財",
+   "title": "亞太產險成長趨緩 台灣、日本復甦吸睛",
+   "short": "亞太產險趨緩　台灣日本復甦",
+   "src": "工商時報",
+   "time": "2026/10/24",
+   "url": "https://www.chinatimes.com/newspapers/20261024000263-260205"
+  },
+  {
+   "id": "etf19m",
+   "cat": "保險理財",
+   "title": "0056、00919、00927…台股ETF受益人數創高，市值型、高股息選誰？股市老手揭配置比例：不管何時漲都會漲到你的",
+   "short": "台股ETF受益人　破1,900萬",
+   "src": "今周刊",
+   "time": "2026/10/21",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610210071/"
+  },
+  {
+   "id": "dip0050",
+   "cat": "保險理財",
+   "title": "0050跌10％就歐印？定期定額要選哪天？買在最高點 VS 最低點，22年報酬竟只差7％...0050兩大進場策略一次看",
+   "short": "0050跌10%歐印　22年只差7%",
+   "src": "今周刊",
+   "time": "2026/10/22",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610220035/"
+  },
+  {
+   "id": "eggfrz",
+   "cat": "健康醫療",
+   "title": "乳癌年輕患者懷孕難題  醫提醒凍卵保生機最高補助7萬",
+   "short": "乳癌年輕化　凍卵最高補助7萬",
+   "src": "中央社",
+   "time": "2026/10/25",
+   "url": "https://www.cna.com.tw/news/ahel/202610250055.aspx",
+   "top": 4
+  },
+  {
+   "id": "microbe",
+   "cat": "健康醫療",
+   "title": "研究：解讀人體微生物菌相  有助看穿疾病提早預防",
+   "short": "微生物菌相　有助提早預防",
+   "src": "中央社",
+   "time": "2026/10/23",
+   "url": "https://www.cna.com.tw/news/ahel/202610230134.aspx"
+  },
+  {
+   "id": "hlthlit",
+   "cat": "健康醫療",
+   "title": "病患先問AI再看醫生　厚生會推全民健康識能",
+   "short": "先問AI再看醫生　推健康識能",
+   "src": "中央社",
+   "time": "2026/10/20",
+   "url": "https://www.cna.com.tw/news/aipl/202610200307.aspx"
+  },
+  {
+   "id": "fit3",
+   "cat": "健康醫療",
+   "title": "萬人研究：老後只要守住「3種能力」，死亡風險降低61%",
+   "short": "老後守住3種能力　死亡風險降61%",
+   "src": "天下雜誌",
+   "time": "2026/10/21",
+   "url": "https://www.cw.com.tw/article/5143312",
+   "top": 5
+  }
+ ],
+ "posters": [
+  ["poster-1-headlines.png", "五大頭條"]
+ ],
+ "bg_auto": "newsroom",
+ "bg_pool": [
+  ["newsroom", "新聞棚"],
+  ["teal-brand", "大心藍綠"],
+  ["city-night", "城市夜景"],
+  ["navy", "經典深藍"],
+  ["gold-finance", "金色財經"],
+  ["navy-chart", "深藍K線"],
+  ["teal-gold", "藍綠金"],
+  ["soft-green", "柔和綠"],
+  ["emerald-pulse", "翡翠心電"],
+  ["sage-light", "晨光青綠"],
+  ["midnight-aurora", "午夜極光"],
+  ["globe-night", "金色地球"]
+ ],
+ "bg_dominant": "財經"
+}
