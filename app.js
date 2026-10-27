@@ -84,7 +84,7 @@ function redraw(){if($('#pout img'))$('#gen').click();}
 function fit(c,t,max,size,w,fam){fam=fam||F;let s=size;do{c.font=`${w} ${s}px ${fam}`;s-=1}while(c.measureText(t).width>max&&s>18);}
 async function poster(ids){
   const heads=ids.map(id=>byId[id].short);
-  const txt=heads.join('')+'每日報報五大重點財經頭條美元澳幣日圓人民幣道瓊標普那斯達克台股加權0123456789.,+-()%（）／：；漲跌較美股為東收盤紅綠資料來源截至台北時間灣證券交易所中央社工商時報ReutersInvesting.comNewsUSDAUDJPYCNY';
+  const txt=heads.join('')+'每日報報五大重點財經頭條美元澳幣日圓人民幣道瓊標普那斯達克台股加權0123456789.,+-()%（）／：；臺銀即期賣出匯率新台幣外幣漲跌較美股為東收盤紅綠資料來源截至台北時間灣證券交易所中央社工商時報ReutersInvesting.comNewsUSDAUDJPYCNY';
   const fl=[];['T','H','S'].forEach(k=>['900','700','600','500'].forEach(w=>fl.push(`${w} 40px ${R[k]}`)));['800','700','600'].forEach(w=>fl.push(`${w} 40px ${INTER}`));
   fl.push(titleFont(40));
   try{await Promise.all(fl.map(f=>document.fonts.load(f,txt+ptitle())));await document.fonts.ready;}catch(e){}
@@ -103,8 +103,14 @@ async function poster(ids){
   const gold=(y,h)=>{const g=c.createLinearGradient(0,y,0,y+h);g.addColorStop(0,'#ffe680');g.addColorStop(1,'#f7c531');return g};
   const cardW=225,gap=20,x0=(1080-4*cardW-3*gap)/2;
   // FX
-  
-  
+  D.fx.forEach(([n,code,v,u,a,p],k)=>{const x=x0+k*(cardW+gap),y=462,h=262;
+    c.shadowColor='rgba(0,0,0,.4)';c.shadowBlur=14;rr(c,x,y,cardW,h,22);c.fillStyle=gold(y,h);c.fill();c.shadowBlur=0;
+    c.fillStyle='#111111';c.font=`900 36px ${F_('T')}`;const nw=c.measureText(n).width;c.font=`600 22px ${INTER}`;const cw=c.measureText(' '+code).width;
+    c.textAlign='left';c.font=`900 36px ${F_('T')}`;c.fillText(n,x+cardW/2-(nw+cw)/2,y+56);c.font=`600 22px ${INTER}`;c.fillStyle='#555';c.fillText(' '+code,x+cardW/2-(nw+cw)/2+nw,y+56);
+    c.textAlign='center';c.strokeStyle='rgba(0,0,0,.25)';c.lineWidth=2;c.beginPath();c.moveTo(x+14,y+82);c.lineTo(x+cardW-14,y+82);c.stroke();
+    c.fillStyle='#111111';fit(c,v,cardW-20,54,700,INTER);c.fillText(v,x+cardW/2,y+152);
+    c.fillStyle=u==='up'?'#d4001a':u==='fl'?'#333333':'#078a32';c.font=`600 28px ${INTER}`;c.fillText(a,x+cardW/2,y+200);c.fillText(`(${p})`,x+cardW/2,y+238);});
+  c.fillStyle='rgba(6,16,45,.6)';rr(c,140,742,800,40,8);c.fill();c.fillStyle='#e8eeff';fit(c,D.fxnote,780,22,500,F_('S'));c.fillText(D.fxnote,540,770);
   c.fillStyle='#ffffff';c.font=`900 56px ${F_('T')}`;c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;c.fillText('五大重點財經頭條',540,908);c.shadowBlur=0;
   heads.forEach((h,k)=>{const y=956+k*92;rr(c,60,y,960,74,16);c.fillStyle='rgba(8,18,50,.72)';c.fill();c.strokeStyle='#fff';c.lineWidth=3;c.stroke();
     c.beginPath();c.arc(112,y+37,25,0,7);c.fillStyle='#f7c531';c.fill();c.fillStyle='#0a1a3a';c.font=`800 30px ${INTER}`;c.textAlign='center';c.fillText(k+1,112,y+48);

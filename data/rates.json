@@ -1,0 +1,22 @@
+{
+  "source": "臺灣銀行牌告匯率",
+  "source_url": "https://rate.bot.com.tw/xrt?Lang=zh-TW",
+  "listed_at": "2026/10/27 13:40",
+  "listed_note": "牌價最新掛牌時間（台北時間）",
+  "fetched_at": "2026-10-27T05:50:00Z",
+  "page_note": "2026/10/27（週二）13:40 掛牌（臺銀即期賣出，牌價最新掛牌時間）；漲跌較 10/26 08:51 掛牌（前一版報紙所載即期賣出）。歐元、港幣、英鎊同頁列出現金與即期買賣價，無前日同欄牌價，不列漲跌。紅漲綠跌。",
+  "poster_note": "臺銀即期賣出匯率（新台幣／1外幣）10/27 13:40；漲跌較 10/26 08:51",
+  "compare_to": {
+    "listed_at": "2026/10/26 08:51",
+    "note": "前一版南恩新聞報報所載臺銀即期賣出（2026/10/26 光復節補假、非營業時間最新牌價）。僅美元、澳幣、日圓、人民幣有此欄，供即期賣出漲跌；不是 13:40 這一筆牌價。"
+  },
+  "currencies": [
+    {"code": "USD", "name": "美元", "unit": 1, "cash_buy": "32.13", "cash_sell": "32.8", "spot_buy": "32.48", "spot_sell": "32.58", "prev_spot_sell": "32.58"},
+    {"code": "AUD", "name": "澳幣", "unit": 1, "cash_buy": "22.45", "cash_sell": "23.23", "spot_buy": "22.74", "spot_sell": "22.94", "prev_spot_sell": "23.03"},
+    {"code": "JPY", "name": "日圓", "unit": 1, "cash_buy": "0.1971", "cash_sell": "0.2099", "spot_buy": "0.2044", "spot_sell": "0.2084", "prev_spot_sell": "0.2095"},
+    {"code": "CNY", "name": "人民幣", "unit": 1, "cash_buy": "4.782", "cash_sell": "4.944", "spot_buy": "4.854", "spot_sell": "4.904", "prev_spot_sell": "4.905"},
+    {"code": "EUR", "name": "歐元", "unit": 1, "cash_buy": "35.51", "cash_sell": "36.85", "spot_buy": "36.13", "spot_sell": "36.53"},
+    {"code": "HKD", "name": "港幣", "unit": 1, "cash_buy": "3.99", "cash_sell": "4.194", "spot_buy": "4.116", "spot_sell": "4.176"},
+    {"code": "GBP", "name": "英鎊", "unit": 1, "cash_buy": "42.18", "cash_sell": "44.3", "spot_buy": "43.19", "spot_sell": "43.59"}
+  ]
+}

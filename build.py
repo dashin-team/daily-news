@@ -9,6 +9,27 @@ W=os.path.dirname(os.path.abspath(__file__)); d=json.load(open(f'{W}/data.json')
 SITE="南恩新聞報報"; DATE=d['date']; D8=DATE.replace('.','')
 WD="日一二三四五六"[datetime.date(*map(int,DATE.split('.'))).isoweekday()%7]
 idx=[[n,v,dd,p,"up" if str(dd)[:1]=="+" else "dn" if str(dd)[:1]=="-" else "fl"] for n,v,dd,p in d['idx']]
+rates=json.load(open(f'{W}/data/rates.json'))
+def chg(v,p):
+    v,p=str(v),str(p)
+    x=float(v)-float(p)
+    n=max(len(v.split('.')[1]) if '.' in v else 0, len(p.split('.')[1]) if '.' in p else 0)
+    x=0.0 if abs(x)<1e-12 else x
+    return ("up" if x>0 else "dn" if x<0 else "fl"),(f"{x:+.{n}f}" if x else f"{0:.{n}f}"),(f"{x/float(p)*100:+.2f}%" if x else "0.00%")
+fx=[]; fx_cards=[]
+for c in rates['currencies']:
+    quotes=f'<div class=qq><span>即期買入 {c["spot_buy"]}</span><span>即期賣出 {c["spot_sell"]}</span><span>現金買入 {c["cash_buy"]}</span><span>現金賣出 {c["cash_sell"]}</span></div>'
+    if c.get('prev_spot_sell'):
+        u,a,b=chg(c['spot_sell'],c['prev_spot_sell'])
+        arrow='▲' if u=='up' else '▼' if u=='dn' else '－'
+        fx.append([c['name'],c['code'],str(c['spot_sell']),u,a,b])
+        fx_cards.append(f'<div class=q><div class=qn>{c["name"]} <small>{c["code"]}</small></div><div class=qv>{c["spot_sell"]}</div><div class="{u} qd">{arrow} {a}（{b}）</div>{quotes}</div>')
+    else:
+        fx_cards.append(f'<div class=q><div class=qn>{c["name"]} <small>{c["code"]}</small></div><div class=qv>{c["spot_sell"]}</div>{quotes}</div>')
+fxh=''.join(fx_cards)
+assert [c[1] for c in fx]==['USD','AUD','JPY','CNY'], fx
+src_js=d['sources'] if str(d['sources']).startswith('臺灣銀行牌告匯率') else '臺灣銀行牌告匯率、'+d['sources']
+footer_src='臺灣銀行牌告匯率（rate.bot.com.tw）、'+d['sources']
 items=d['items']
 for it in items:
     it['img']=f"img/cards/{it['id']}.png"; it['dl']=f"{D8}-剪報-{it['short'].split('　')[0]}.png".replace('/','-').replace('?','').replace('？','')
@@ -25,7 +46,7 @@ with zipfile.ZipFile(f'{W}/{ZIP}','w') as z:
     for f,n in d['posters']: z.write(f'{W}/img/{f}',f'{D8}-每日報報-{n}.png')
     for k,i in enumerate(items): z.write(f"{W}/{i['img']}",f"{k+1:02d}-{i['dl']}")
 P0=d['posters'][0]
-js_data=json.dumps(dict(date=DATE,D8=D8,idx=idx,items=items,posters=d['posters'],bg_auto=d.get('bg_auto','newsroom'),bg_pool=d.get('bg_pool',[]),idxnote=d['idx_note'],sources=d['sources'],asof=d['asof']),ensure_ascii=False)
+js_data=json.dumps(dict(date=DATE,D8=D8,fx=fx,idx=idx,items=items,posters=d['posters'],bg_auto=d.get('bg_auto','newsroom'),bg_pool=d.get('bg_pool',[]),fxnote=rates['poster_note'],idxnote=d['idx_note'],sources=src_js,asof=d['asof']),ensure_ascii=False)
 import hashlib,time
 VER=hashlib.md5(open(f'{W}/app.js','rb').read()).hexdigest()[:8]+'-'+time.strftime('%m%d%H%M')
 html=f"""<!doctype html><html lang=zh-Hant><head><meta charset=utf-8><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0>
@@ -49,6 +70,7 @@ h2 small{{font-weight:400;font-size:12px;color:#777;margin-left:6px}}
 .qn{{font-family:var(--fN),var(--fT);font-weight:700;font-size:14px;color:#333}} .qn small{{color:#888;font-weight:400}}
 .qv{{font-family:var(--fN);font-weight:700;font-size:24px;font-variant-numeric:tabular-nums;color:#111}}
 .qd{{font-family:var(--fN);font-size:13px;font-weight:600}} .up{{color:#e60012}} .dn{{color:#008a3a}} .fl{{color:#555}}
+.qq{{display:flex;flex-wrap:wrap;gap:2px 8px;font-family:var(--fN);font-size:11px;font-weight:500;color:#555;line-height:1.4;margin-top:4px}}
 .note{{font-family:var(--fN),var(--fS);font-weight:500;font-size:11.5px;color:#777;margin-top:5px;line-height:1.5}}
 .hl{{display:flex;gap:10px;text-decoration:none;color:#111;border-bottom:1px solid #ddd;padding:11px 0}}
 .no{{flex:none;font-family:var(--fN);font-weight:800;font-size:22px;color:#e60012;width:20px;line-height:1.2}}
@@ -99,6 +121,8 @@ footer img{{width:52px;height:auto;flex:none}}
 <div class=ed><span class=pg>A1</span><b>要聞</b><span class=d>{DATE}</span></div>
 <div class=fp><span>字體</span><button class=fbtn data-f=sys>預設配置</button><button class=fbtn data-f=sans>思源黑體</button><button class=fbtn data-f=serif>思源宋體</button><button class=fbtn data-f=jh>微軟正黑體<small>Windows 限定</small></button></div>
 <h2>五大重點財經頭條</h2>{hh}
+<h2>匯率<small>臺銀即期賣出・新台幣／1外幣</small></h2><div class=qs>{fxh}</div>
+<div class=note>{e(rates['page_note'])}</div>
 <h2>重要指數</h2><div class=qs>{ixh}</div>
 <div class=note>{d['idx_note']}。紅漲綠跌。</div>
 
@@ -126,7 +150,7 @@ footer img{{width:52px;height:auto;flex:none}}
 <div class=pv id=pout></div>
 </div>
 <a class="btn all" href="{ZIP}" download="{SITE}-{D8}-全部圖片.zip">全部下載（ZIP，海報＋全部剪報）</a>
-<footer><img src="img/logo.png" alt="大心團隊"><div>資料來源：{e(d['sources'])}。<br>資料截至 {e(d['asof'])}（台北時間）。內容僅供參考，不構成投資建議。</div></footer>
+<footer><img src="img/logo.png" alt="大心團隊"><div>資料來源：{e(footer_src)}。<br>資料截至 {e(d['asof'])}（台北時間）。內容僅供參考，不構成投資建議。</div></footer>
 </div>
 <script>const D={js_data};</script>
 <script src="app.js?v={VER}"></script>
