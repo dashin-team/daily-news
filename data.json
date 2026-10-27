@@ -1,174 +1,237 @@
 {
- "date": "2026.10.27",
- "asof": "2026/10/27",
- "idx_note": "美股為美東 10/23（週五）收盤；台股為 10/27 約 10:44 盤中（前收 46,041.43）",
- "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Reuters／Investing.com",
+ "date": "2026.10.28",
+ "asof": "2026/10/28",
+ "idx_note": "美股為美東 10/27（週二）收盤；台股為 10/27（週二）收盤",
+ "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
-  ["道瓊", "52,215.16", "-652.82", "-1.23%"],
-  ["標普500", "7,623.68", "-39.75", "-0.52%"],
-  ["那斯達克", "25,955.34", "-53.52", "-0.21%"],
-  ["台股加權", "45,963.40", "-78.03", "-0.17%"]
+  [
+   "道瓊",
+   "52,377.57",
+   "+15.99",
+   "+0.03%"
+  ],
+  [
+   "標普500",
+   "7,722.60",
+   "+45.83",
+   "+0.60%"
+  ],
+  [
+   "那斯達克",
+   "26,477.81",
+   "+308.43",
+   "+1.18%"
+  ],
+  [
+   "台股加權",
+   "46,096.23",
+   "+54.80",
+   "+0.12%"
+  ]
  ],
- "cats": ["財經", "保險理財", "健康醫療"],
+ "cats": [
+  "財經",
+  "保險理財",
+  "健康醫療"
+ ],
  "items": [
   {
-   "id": "taiex",
+   "id": "oil",
    "cat": "財經",
-   "title": "台股漲逾500點後翻黑 科技權值股失色",
-   "short": "台股翻黑　科技權值股失色",
+   "title": "中東重啟外交斡旋 國際油價回落逾1.8%",
+   "short": "中東外交斡旋　油價回落",
    "src": "中央社",
-   "time": "2026/10/27",
-   "url": "https://www.cna.com.tw/news/afe/202610270050.aspx",
+   "time": "2026/10/28",
+   "url": "https://www.cna.com.tw/news/afe/202610280010.aspx"
+  },
+  {
+   "id": "taiexfx",
+   "cat": "財經",
+   "title": "股匯同步回神 台股拚返季線、台幣看Fed決策",
+   "short": "股匯同步回神　台股拚季線",
+   "src": "工商時報",
+   "time": "2026/10/28",
+   "url": "https://www.ctee.com.tw/news/20261028700047-439901",
    "top": 1
   },
   {
-   "id": "fsell",
+   "id": "fxout",
    "cat": "財經",
-   "title": "外資甩賣8,200億 高盛、凱基卻喊多上看57,500點",
-   "short": "外資甩賣8200億　上看57500點",
+   "title": "央行：外資7月來淨匯出543億美元",
+   "short": "外資淨匯出　543億美元",
    "src": "工商時報",
-   "time": "2026/10/27",
-   "url": "https://www.ctee.com.tw/news/20261027700056-439901",
+   "time": "2026/10/28",
+   "url": "https://www.ctee.com.tw/news/20261028700065-439901",
    "top": 2
   },
   {
-   "id": "soxoil",
+   "id": "memory",
    "cat": "財經",
-   "title": "費半終於止跌、台積電ADR反彈 油價飆逾3%",
-   "short": "費半止跌　油價飆逾3%",
+   "title": "記憶體股集體回神 南亞科大漲6.52%",
+   "short": "記憶體股回神　南亞科漲6.5%",
    "src": "今周刊",
-   "time": "2026/10/24",
-   "url": "https://www.businesstoday.com.tw/article/category/183025/post/202610240003/"
-  },
-  {
-   "id": "cowos",
-   "cat": "財經",
-   "title": "台積電CoWoS傳漲價2成 AI搶產能設備交期拉長",
-   "short": "台積電CoWoS　傳漲價2成",
-   "src": "工商時報",
    "time": "2026/10/27",
-   "url": "https://www.ctee.com.tw/news/20261027700053-439901"
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610270040/"
   },
   {
-   "id": "anthropic",
+   "id": "aifund",
    "cat": "財經",
-   "title": "Anthropic招股書公布 估登那斯達克、估值上看2兆美元",
-   "short": "Anthropic招股書　估值上看2兆",
+   "title": "博通親自拜託銀行 630億美元AI融資驚險成局",
+   "short": "AI融資卡關　博通親自出馬",
    "src": "天下雜誌",
-   "time": "2026/10/27",
-   "url": "https://www.cw.com.tw/article/5143449",
+   "time": "2026/10/28",
+   "url": "https://www.cw.com.tw/article/5143461",
    "top": 3
   },
   {
-   "id": "cbweek",
+   "id": "bigtech",
    "cat": "財經",
-   "title": "全球超級央行周登場 市場估美歐日按兵不動",
-   "short": "超級央行周　美歐日按兵不動",
-   "src": "工商時報",
-   "time": "2026/10/27",
-   "url": "https://www.ctee.com.tw/news/20261027700059-439901"
-  },
-  {
-   "id": "ifrs17",
-   "cat": "保險理財",
-   "title": "IFRS 17變小天使 利率成壽險淨值關鍵",
-   "short": "IFRS 17　利率成淨值關鍵",
-   "src": "工商時報",
-   "time": "2026/10/27",
-   "url": "https://www.ctee.com.tw/news/20261027700066-439901"
-  },
-  {
-   "id": "etf816",
-   "cat": "保險理財",
-   "title": "台股50系列ETF車拚 009816近一季報酬逾12%",
-   "short": "台股50系列　009816報酬逾12%",
-   "src": "今周刊",
-   "time": "2026/10/25",
-   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610210056/"
-  },
-  {
-   "id": "retire",
-   "cat": "保險理財",
-   "title": "退休月領3萬本金免千萬？0050、0056配置術",
-   "short": "退休月領3萬　本金免千萬",
+   "title": "美股財報周登場 微軟、Google、亞馬遜定AI股走向",
+   "short": "美股財報周　三巨頭定AI走向",
    "src": "今周刊",
    "time": "2026/10/27",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610260008/",
+   "url": "https://www.businesstoday.com.tw/article/category/183025/post/202610270035/"
+  },
+  {
+   "id": "insprofit",
+   "cat": "保險理財",
+   "title": "保險業前9月賺3977億元 壽險避險比率40.95%",
+   "short": "保險業前9月　賺3977億",
+   "src": "中央社",
+   "time": "2026/10/27",
+   "url": "https://www.cna.com.tw/news/afe/202610270307.aspx",
    "top": 4
   },
   {
-   "id": "split208",
+   "id": "fxpolicy",
    "cat": "保險理財",
-   "title": "006208分割1拆8有譜 12/18受益人會議決議",
-   "short": "006208擬分割　12/18決議",
-   "src": "今周刊",
-   "time": "2026/10/24",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610230015/"
-  },
-  {
-   "id": "tisa",
-   "cat": "保險理財",
-   "title": "兆豐證挺TISA 助攻退休理財",
-   "short": "兆豐證挺TISA　助攻退休理財",
-   "src": "工商時報",
-   "time": "2026/10/27",
-   "url": "https://www.ctee.com.tw/news/20261027700199-439901"
-  },
-  {
-   "id": "superbug",
-   "cat": "健康醫療",
-   "title": "北榮、陽明交大發現新型抗藥細菌 美CDC期刊示警",
-   "short": "新型抗藥細菌　美CDC示警",
+   "title": "外幣保單占比創8年同期新低 銷售卻年增36%",
+   "short": "外幣保單占比　8年同期新低",
    "src": "中央社",
    "time": "2026/10/27",
-   "url": "https://www.cna.com.tw/news/ahel/202610270096.aspx",
+   "url": "https://www.cna.com.tw/news/afe/202610270281.aspx"
+  },
+  {
+   "id": "etf878",
+   "cat": "保險理財",
+   "title": "00878配息一年增152% 新一季能配1.1元？",
+   "short": "00878配息　一年增152%",
+   "src": "今周刊",
+   "time": "2026/10/27",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610270038/"
+  },
+  {
+   "id": "retirecity",
+   "cat": "保險理財",
+   "title": "七都退休生活費大比拚 台北夫妻月需7.3萬",
+   "short": "七都退休生活費　台北最高",
+   "src": "天下雜誌",
+   "time": "2026/10/27",
+   "url": "https://www.cw.com.tw/article/5143380"
+  },
+  {
+   "id": "etfholders",
+   "cat": "保險理財",
+   "title": "台股震盪擋不住 ETF受益人增至2380萬人",
+   "short": "ETF受益人　增至2380萬",
+   "src": "今周刊",
+   "time": "2026/10/27",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610270050/"
+  },
+  {
+   "id": "cheese",
+   "cat": "健康醫療",
+   "title": "每天50克高脂起司 失智風險降13%？",
+   "short": "高脂起司　失智風險降13%",
+   "src": "天下雜誌",
+   "time": "2026/10/27",
+   "url": "https://www.cw.com.tw/article/5143447",
    "top": 5
   },
   {
-   "id": "raredrug",
+   "id": "healthtw",
    "cat": "健康醫療",
-   "title": "罕藥專案進口漫長等待 石崇良：拚平行審查加速",
-   "short": "罕藥專案進口　拚平行審查",
-   "src": "中央社",
-   "time": "2026/10/26",
-   "url": "https://www.cna.com.tw/news/ahel/202610260162.aspx"
+   "title": "賴總統：2032年國人平均餘命拚增3歲",
+   "short": "健康台灣　平均餘命拚增3歲",
+   "src": "工商時報",
+   "time": "2026/10/28",
+   "url": "https://www.ctee.com.tw/news/20261028700090-439901"
   },
   {
-   "id": "aidigital",
+   "id": "doctors",
    "cat": "健康醫療",
-   "title": "未來健檢不用量體重？AI數位分身找健康風險",
-   "short": "AI數位分身　找健康風險",
+   "title": "醫師猝逝引過勞關注 石崇良：減行政負擔",
+   "short": "醫師過勞　石崇良減行政負擔",
+   "src": "中央社",
+   "time": "2026/10/27",
+   "url": "https://www.cna.com.tw/news/ahel/202610270117.aspx"
+  },
+  {
+   "id": "organoid",
+   "cat": "健康醫療",
+   "title": "類器官之父落腳台灣 打造器官分身試藥",
+   "short": "類器官之父　落腳台灣",
    "src": "天下雜誌",
    "time": "2026/10/27",
-   "url": "https://www.cw.com.tw/aging/article/5143360"
-  },
-  {
-   "id": "ahei",
-   "cat": "健康醫療",
-   "title": "哈佛30年研究：AHEI長壽飲食 健康老化率增86%",
-   "short": "AHEI長壽飲食　健康老化增86%",
-   "src": "天下雜誌",
-   "time": "2026/10/22",
-   "url": "https://www.cw.com.tw/article/5143330"
+   "url": "https://www.cw.com.tw/article/5143450"
   }
  ],
  "posters": [
-  ["poster-1-headlines.png", "五大頭條"]
+  [
+   "poster-1-headlines.png",
+   "五大頭條"
+  ]
  ],
  "bg_auto": "newsroom",
  "bg_pool": [
-  ["newsroom", "新聞棚"],
-  ["teal-brand", "大心藍綠"],
-  ["city-night", "城市夜景"],
-  ["navy", "經典深藍"],
-  ["gold-finance", "金色財經"],
-  ["navy-chart", "深藍K線"],
-  ["teal-gold", "藍綠金"],
-  ["soft-green", "柔和綠"],
-  ["emerald-pulse", "翡翠心電"],
-  ["sage-light", "晨光青綠"],
-  ["midnight-aurora", "午夜極光"],
-  ["globe-night", "金色地球"]
+  [
+   "newsroom",
+   "新聞棚"
+  ],
+  [
+   "teal-brand",
+   "大心藍綠"
+  ],
+  [
+   "city-night",
+   "城市夜景"
+  ],
+  [
+   "navy",
+   "經典深藍"
+  ],
+  [
+   "gold-finance",
+   "金色財經"
+  ],
+  [
+   "navy-chart",
+   "深藍K線"
+  ],
+  [
+   "teal-gold",
+   "藍綠金"
+  ],
+  [
+   "soft-green",
+   "柔和綠"
+  ],
+  [
+   "emerald-pulse",
+   "翡翠心電"
+  ],
+  [
+   "sage-light",
+   "晨光青綠"
+  ],
+  [
+   "midnight-aurora",
+   "午夜極光"
+  ],
+  [
+   "globe-night",
+   "金色地球"
+  ]
  ],
  "bg_dominant": "財經"
 }
