@@ -1,32 +1,32 @@
 {
- "date": "2026.10.30",
- "asof": "2026/10/30",
- "idx_note": "美股為美東 10/29（週四）收盤；台股為 10/29（週四）收盤",
+ "date": "2026.11.03",
+ "asof": "2026/11/03",
+ "idx_note": "美股為美東 11/02（週一）收盤；台股為 11/03（週二）收盤",
  "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
   [
    "道瓊",
-   "52,342.56",
-   "-132.54",
-   "-0.25%"
+   "51,983.98",
+   "+213.67",
+   "+0.41%"
   ],
   [
    "標普500",
-   "7,720.39",
-   "-23.59",
-   "-0.30%"
+   "7,541.40",
+   "-38.67",
+   "-0.51%"
   ],
   [
    "那斯達克",
-   "26,184.73",
-   "-365.12",
-   "-1.38%"
+   "25,164.32",
+   "-272.68",
+   "-1.07%"
   ],
   [
    "台股加權",
-   "46,368.33",
-   "-667.25",
-   "-1.42%"
+   "43,307.54",
+   "-1,612.60",
+   "-3.59%"
   ]
  ],
  "cats": [
@@ -36,144 +36,144 @@
  ],
  "items": [
   {
-   "id": "usgdp",
+   "id": "taiexfx",
    "cat": "財經",
-   "title": "美第3季GDP擴張3.4%高於預期 9月核心通膨年增3.1%",
-   "short": "美Q3 GDP增3.4%　核心通膨3.1%",
-   "src": "中央社",
-   "time": "2026/10/29",
-   "url": "https://www.cna.com.tw/news/aopl/202610290371.aspx",
+   "title": "台股大跌逾1,600點 新台幣午盤狂瀉1.71角",
+   "short": "台股重挫　新台幣午盤貶1.71角",
+   "src": "工商時報",
+   "time": "2026/11/03",
+   "url": "https://www.ctee.com.tw/news/20261103701078-430302",
    "top": 1
   },
   {
-   "id": "boom",
+   "id": "nightfut",
    "cat": "財經",
-   "title": "9月景氣連十紅 最長紀錄",
-   "short": "景氣連10紅　創最長紀錄",
-   "src": "工商時報",
-   "time": "2026/10/30",
-   "url": "https://www.ctee.com.tw/news/20261030700056-439901",
+   "title": "美科技股挫台指期夜盤跌917點 法人：台股面臨下探壓力",
+   "short": "台指期夜盤跌917點",
+   "src": "中央社",
+   "time": "2026/11/03",
+   "url": "https://www.cna.com.tw/news/afe/202611030022.aspx",
    "top": 2
   },
   {
-   "id": "taiexdrop",
+   "id": "rbahike",
    "cat": "財經",
-   "title": "台股失守2大關 拚反攻",
-   "short": "台股跌667點　失守季線",
+   "title": "抗通膨未結束！澳洲央行再升息一碼至4.85％ 創18年來新高",
+   "short": "澳洲央行升息至4.85%",
    "src": "工商時報",
-   "time": "2026/10/30",
-   "url": "https://www.ctee.com.tw/news/20261030700062-439901",
+   "time": "2026/11/03",
+   "url": "https://www.ctee.com.tw/news/20261103700987-430701",
    "top": 3
   },
   {
-   "id": "deltaq3",
+   "id": "taiexwhy",
    "cat": "財經",
-   "title": "台達電14天崩3成 法說會喊訂單能見度高",
-   "short": "台達電14天跌3成　法說解析",
+   "title": "台股大跌原因禍首是誰？急殺逾1500點下探43K",
+   "short": "台股急殺逾1500點原因",
    "src": "今周刊",
-   "time": "2026/10/29",
-   "url": "https://www.businesstoday.com.tw/article/category/183015/post/202610290044/"
+   "time": "2026/11/03",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611030017/"
   },
   {
-   "id": "banklcr",
+   "id": "anthropic",
    "cat": "財經",
-   "title": "公股行庫放款被誰卡死？科技大廠成「隱形銀行」",
-   "short": "公股行庫資金緊俏　LCR告急",
+   "title": "油價崩了，費半又跌！Anthropic嚇壞華爾街",
+   "short": "Anthropic招股書嚇壞華爾街",
    "src": "天下雜誌",
-   "time": "2026/10/29",
-   "url": "https://www.cw.com.tw/article/5143492"
+   "time": "2026/11/03",
+   "url": "https://www.cw.com.tw/article/5143533"
   },
   {
-   "id": "umcdrop",
+   "id": "hsbcwealth",
    "cat": "財經",
-   "title": "聯電跌停原因？跌破半年線 目標價100至188元",
-   "short": "聯電跌停　法人目標價分歧",
-   "src": "今周刊",
-   "time": "2026/10/29",
-   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202610290017/"
+   "title": "滙豐銀：AI驅動強勁信心 98%台灣企業家樂觀看前景",
+   "short": "98%台灣企業家樂觀看前景",
+   "src": "中央社",
+   "time": "2026/11/03",
+   "url": "https://www.cna.com.tw/news/afe/202611030090.aspx"
   },
   {
-   "id": "fubonbond",
+   "id": "capisland",
    "cat": "保險理財",
-   "title": "強化資本結構 富邦人壽擬發累積次順位債上限400億",
-   "short": "富邦人壽擬發次順位債400億",
+   "title": "台股市值158兆年增6成 彭金隆：資產管理市場迎新局",
+   "short": "台股市值158兆　年增逾6成",
    "src": "中央社",
-   "time": "2026/10/29",
-   "url": "https://www.cna.com.tw/news/afe/202610290380.aspx",
+   "time": "2026/11/03",
+   "url": "https://www.cna.com.tw/news/afe/202611030053.aspx",
    "top": 4
   },
   {
-   "id": "cyberins",
+   "id": "tisa",
    "cat": "保險理財",
-   "title": "受威脅程度升溫 金管會呼籲企業評估投保資安險",
-   "short": "資安威脅升溫　企業宜投保資安險",
+   "title": "賴清德：TISA開戶數已突破28萬 將透過租稅誘因鼓勵投資",
+   "short": "TISA開戶突破28萬",
    "src": "工商時報",
-   "time": "2026/10/30",
-   "url": "https://www.ctee.com.tw/news/20261030700107-439901"
+   "time": "2026/11/03",
+   "url": "https://www.ctee.com.tw/news/20261103701080-430101"
   },
   {
-   "id": "hiyield",
+   "id": "00712",
    "cat": "保險理財",
-   "title": "台股高息ETF揚眉吐氣 00927今年含息報酬率稱冠",
-   "short": "高息ETF回溫　00927報酬居冠",
+   "title": "00712一張跌到7元 100萬存9年含息竟倒賠25萬",
+   "short": "00712跌到7元　含息仍虧25%",
    "src": "今周刊",
-   "time": "2026/10/29",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202610290014/"
+   "time": "2026/11/03",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611020042/"
   },
   {
-   "id": "trilliongroup",
+   "id": "etflife",
    "cat": "保險理財",
-   "title": "元大金躋身兆元金控股 謝金河：金融業最兵肥馬壯的時代",
-   "short": "元大金破兆　五大兆元金控",
+   "title": "人生各階段ETF怎麼配最穩？施昇輝給答案",
+   "short": "人生各階段ETF怎麼配",
    "src": "今周刊",
-   "time": "2026/10/29",
-   "url": "https://www.businesstoday.com.tw/article/category/183025/post/202610290018/"
+   "time": "2026/11/03",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611020023/"
   },
   {
-   "id": "activefund",
+   "id": "laborpension",
    "cat": "保險理財",
-   "title": "主動型基金勝率有多高？何時能擊敗被動投資？",
-   "short": "主動型基金勝率僅4成",
+   "title": "勞保、勞退只是退休底薪！想提早離開職場還要準備多少錢？",
+   "short": "勞保勞退只是退休底薪",
    "src": "天下雜誌",
-   "time": "2026/10/29",
-   "url": "https://www.cw.com.tw/article/5143484"
+   "time": "2026/11/01",
+   "url": "https://www.cw.com.tw/article/5143304"
   },
   {
-   "id": "hbvdrug",
+   "id": "hivprep",
    "cat": "健康醫療",
-   "title": "健保放寬B肝抗病毒藥給付條件 受惠人數上看3萬人",
-   "short": "B肝用藥放寬　3萬人受惠",
+   "title": "美核准低成本HIV預防藥物 嘉惠120國打破貧富用藥落差",
+   "short": "美核准低價HIV預防針",
    "src": "中央社",
-   "time": "2026/10/29",
-   "url": "https://www.cna.com.tw/news/ahel/202610290230.aspx",
+   "time": "2026/11/03",
+   "url": "https://www.cna.com.tw/news/aopl/202611030110.aspx",
    "top": 5
   },
   {
-   "id": "dementia",
+   "id": "kidneydiet",
    "cat": "健康醫療",
-   "title": "失智照護現縣市落差 衛福部推3.0提4方向",
-   "short": "失智照護3.0　衛福部提4方向",
-   "src": "中央社",
-   "time": "2026/10/29",
-   "url": "https://www.cna.com.tw/news/ahel/202610290289.aspx"
-  },
-  {
-   "id": "propofol",
-   "cat": "健康醫療",
-   "title": "牛奶針治失眠1次近萬元 衛福部要查了",
-   "short": "牛奶針治失眠　衛福部要查",
+   "title": "避開加工品 外食護腎5原則",
+   "short": "外食護腎5原則",
    "src": "工商時報",
-   "time": "2026/10/29",
-   "url": "https://www.ctee.com.tw/news/20261029701706-431401"
+   "time": "2026/11/03",
+   "url": "https://www.ctee.com.tw/news/20261103700565-430905"
   },
   {
-   "id": "cohousing",
+   "id": "inflamfood",
    "cat": "健康醫療",
-   "title": "機構與居家之外的選擇 台灣3個共生之家",
-   "short": "共生之家　長照第三條路",
+   "title": "醫生：9種可能默默助長發炎的食物",
+   "short": "9種助長發炎的食物",
    "src": "天下雜誌",
-   "time": "2026/10/29",
-   "url": "https://www.cw.com.tw/article/5143399"
+   "time": "2026/11/02",
+   "url": "https://www.cw.com.tw/article/5143532"
+  },
+  {
+   "id": "ivfsubsidy",
+   "cat": "健康醫療",
+   "title": "試管補助加碼 均衡備孕飲食",
+   "short": "試管補助最高15萬　均衡備孕",
+   "src": "工商時報",
+   "time": "2026/11/03",
+   "url": "https://www.ctee.com.tw/news/20261103700640-430905"
   }
  ],
  "posters": [
