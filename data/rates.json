@@ -1,82 +1,82 @@
 {
   "source": "臺灣銀行牌告匯率",
   "source_url": "https://rate.bot.com.tw/xrt?Lang=zh-TW",
-  "listed_at": "2026/11/04 06:11",
+  "listed_at": "2026/11/05 05:31",
   "listed_note": "牌價最新掛牌時間（台北時間）",
-  "fetched_at": "2026-11-03T22:12:00Z",
-  "page_note": "2026/11/04（週三）06:11 掛牌（臺銀即期賣出，牌價最新掛牌時間）。漲跌較 11/03 13:40 掛牌（前一版報紙所載即期賣出）。歐元、港幣、英鎊同頁列出現金與即期買賣價，不列漲跌。紅漲綠跌。",
-  "poster_note": "臺銀即期賣出匯率（新台幣／1外幣）11/04 06:11；漲跌較 11/03 13:40",
+  "fetched_at": "2026-11-04T22:05:00Z",
+  "page_note": "2026/11/05（週四）05:31 掛牌（臺銀即期賣出，牌價最新掛牌時間，營業前牌價）；漲跌較 11/04 06:11 掛牌（前一版報紙所載即期賣出）。歐元、港幣、英鎊同頁列出現金與即期買賣價，不列漲跌。紅漲綠跌。",
+  "poster_note": "臺銀即期賣出匯率（新台幣／1外幣）11/05 05:31；漲跌較 11/04 06:11",
   "compare_to": {
-    "listed_at": "2026/11/03 13:40",
-    "note": "前一版南恩新聞報報所載臺銀即期賣出（2026/11/03 13:40 掛牌）。僅美元、澳幣、日圓、人民幣列漲跌。"
+    "listed_at": "2026/11/04 06:11",
+    "note": "前一版南恩新聞報報所載臺銀即期賣出（2026/11/04 06:11 掛牌）。僅美元、澳幣、日圓、人民幣列漲跌。"
   },
   "currencies": [
     {
       "code": "USD",
       "name": "美元",
       "unit": 1,
-      "cash_buy": "32.36",
-      "cash_sell": "33.03",
-      "spot_buy": "32.685",
-      "spot_sell": "32.835",
-      "prev_spot_sell": "32.805"
+      "cash_buy": "32.425",
+      "cash_sell": "33.095",
+      "spot_buy": "32.75",
+      "spot_sell": "32.90",
+      "prev_spot_sell": "32.835"
     },
     {
       "code": "AUD",
       "name": "澳幣",
       "unit": 1,
-      "cash_buy": "22.44",
-      "cash_sell": "23.22",
-      "spot_buy": "22.655",
-      "spot_sell": "23.00",
-      "prev_spot_sell": "22.95"
+      "cash_buy": "22.62",
+      "cash_sell": "23.40",
+      "spot_buy": "22.835",
+      "spot_sell": "23.18",
+      "prev_spot_sell": "23.00"
     },
     {
       "code": "JPY",
       "name": "日圓",
       "unit": 1,
-      "cash_buy": "0.1972",
-      "cash_sell": "0.21",
-      "spot_buy": "0.204",
-      "spot_sell": "0.209",
-      "prev_spot_sell": "0.2095"
+      "cash_buy": "0.198",
+      "cash_sell": "0.2108",
+      "spot_buy": "0.2048",
+      "spot_sell": "0.2098",
+      "prev_spot_sell": "0.209"
     },
     {
       "code": "CNY",
       "name": "人民幣",
       "unit": 1,
-      "cash_buy": "4.816",
-      "cash_sell": "4.978",
-      "spot_buy": "4.883",
-      "spot_sell": "4.943",
-      "prev_spot_sell": "4.935"
+      "cash_buy": "4.822",
+      "cash_sell": "4.984",
+      "spot_buy": "4.889",
+      "spot_sell": "4.949",
+      "prev_spot_sell": "4.943"
     },
     {
       "code": "EUR",
       "name": "歐元",
       "unit": 1,
-      "cash_buy": "35.86",
-      "cash_sell": "37.2",
-      "spot_buy": "36.375",
-      "spot_sell": "36.975"
+      "cash_buy": "36.06",
+      "cash_sell": "37.40",
+      "spot_buy": "36.575",
+      "spot_sell": "37.175"
     },
     {
       "code": "HKD",
       "name": "港幣",
       "unit": 1,
-      "cash_buy": "4.019",
-      "cash_sell": "4.223",
-      "spot_buy": "4.14",
-      "spot_sell": "4.21"
+      "cash_buy": "4.029",
+      "cash_sell": "4.233",
+      "spot_buy": "4.15",
+      "spot_sell": "4.22"
     },
     {
       "code": "GBP",
       "name": "英鎊",
       "unit": 1,
-      "cash_buy": "42.77",
-      "cash_sell": "44.89",
-      "spot_buy": "43.665",
-      "spot_sell": "44.295"
+      "cash_buy": "43.04",
+      "cash_sell": "45.16",
+      "spot_buy": "43.935",
+      "spot_sell": "44.565"
     }
   ]
 }
