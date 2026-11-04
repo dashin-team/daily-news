@@ -1,32 +1,32 @@
 {
- "date": "2026.11.04",
- "asof": "2026/11/04",
- "idx_note": "美股為美東 11/03（週二）收盤；台股為 11/03（週二）收盤（台股 11/04 尚未開盤）",
+ "date": "2026.11.05",
+ "asof": "2026/11/05",
+ "idx_note": "美股為美東 11/04（週三）收盤；台股為 11/04（週三）收盤（台股 11/05 尚未開盤）",
  "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
   [
    "道瓊",
-   "51,786.72",
-   "-197.26",
-   "-0.38%"
+   "53,356.12",
+   "+1,569.40",
+   "+3.03%"
   ],
   [
    "標普500",
-   "7,568.92",
-   "+27.52",
-   "+0.36%"
+   "7,688.62",
+   "+119.70",
+   "+1.58%"
   ],
   [
    "那斯達克",
-   "25,372.01",
-   "+207.65",
-   "+0.83%"
+   "25,736.51",
+   "+364.50",
+   "+1.44%"
   ],
   [
    "台股加權",
-   "43,307.54",
-   "-1,612.60",
-   "-3.59%"
+   "42,948.91",
+   "-358.63",
+   "-0.83%"
   ]
  ],
  "cats": [
@@ -36,144 +36,144 @@
  ],
  "items": [
   {
-   "id": "nvdacloud",
+   "id": "twdfx",
    "cat": "財經",
-   "title": "輝達祭出51％新規 全球雲端業者被迫與中國客戶切割",
-   "short": "輝達新規　雲端業者須51%賣非中企",
+   "title": "美國期中選舉》台幣貶不停 33元保衛戰開打",
+   "short": "台幣貶不停　33元保衛戰開打",
    "src": "工商時報",
-   "time": "2026/11/03",
-   "url": "https://www.ctee.com.tw/news/20261103701350-430704",
+   "time": "2026/11/05",
+   "url": "https://www.ctee.com.tw/news/20261105700055-439901",
    "top": 1
   },
   {
-   "id": "foreignsell",
+   "id": "adpoct",
    "cat": "財經",
-   "title": "外資賣超1073億元史上第8大 調節ETF居多",
-   "short": "外資賣超1073億　史上第8大",
+   "title": "美國10月小非農高於預期 民間就業增8.6萬人、薪資成長強勁",
+   "short": "美10月小非農增8.6萬　薪資強勁",
    "src": "中央社",
-   "time": "2026/11/03",
-   "url": "https://www.cna.com.tw/news/afe/202611030310.aspx",
+   "time": "2026/11/04",
+   "url": "https://www.cna.com.tw/news/aopl/202611040375.aspx"
+  },
+  {
+   "id": "memorydrop",
+   "cat": "財經",
+   "title": "記憶體股殺逾半根跌停 華邦電遭外資狂倒逾4萬張 法人砍目標價",
+   "short": "記憶體股殺逾半根跌停　法人砍目標價",
+   "src": "今周刊",
+   "time": "2026/11/04",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611040025/"
+  },
+  {
+   "id": "bluewave",
+   "cat": "財經",
+   "title": "藍潮來襲、民主黨橫掃國會，AI資料中心不妙了？美股何時回穩？",
+   "short": "藍潮橫掃國會　AI資料中心受考驗",
+   "src": "天下雜誌",
+   "time": "2026/11/04",
+   "url": "https://www.cw.com.tw/article/5143557"
+  },
+  {
+   "id": "euroinfl",
+   "cat": "財經",
+   "title": "歐元區10月通膨率4%創3年新高 預料歐央行下月將升息",
+   "short": "歐元區通膨4%創3年新高",
+   "src": "中央社",
+   "time": "2026/11/04",
+   "url": "https://www.cna.com.tw/news/aopl/202611040354.aspx"
+  },
+  {
+   "id": "taiexv",
+   "cat": "財經",
+   "title": "美國期中選舉》跌出甜蜜點、兩大利多助攻 台股V轉秀 締六大紀錄",
+   "short": "台股V轉秀　締六大紀錄",
+   "src": "工商時報",
+   "time": "2026/11/05",
+   "url": "https://www.ctee.com.tw/news/20261105700052-439901",
    "top": 2
   },
   {
-   "id": "applecfo",
-   "cat": "財經",
-   "title": "蘋果財報哪出問題？營收優預期 股價盤後卻跌逾4％",
-   "short": "蘋果財報：營收優預期　毛利率展望遜",
-   "src": "今周刊",
-   "time": "2026/11/03",
-   "url": "https://www.businesstoday.com.tw/article/category/183025/post/202611030004/"
-  },
-  {
-   "id": "loancrunch",
-   "cat": "財經",
-   "title": "借錢好難！有房無債為何被拒貸款？台灣資金荒衝擊房貸、企業與國庫",
-   "short": "資金荒：有房無債也貸不到錢",
-   "src": "天下雜誌",
-   "time": "2026/11/03",
-   "url": "https://www.cw.com.tw/article/5143547"
-  },
-  {
-   "id": "winbond",
-   "cat": "財經",
-   "title": "華邦電通過731億元資本支出 高雄新廠擬12/29動工",
-   "short": "華邦電731億擴產　高雄新廠12/29動工",
+   "id": "fitchshinkong",
+   "cat": "保險理財",
+   "title": "惠譽調升新光人壽評等 展望轉穩定",
+   "short": "惠譽調升新光人壽評等",
    "src": "中央社",
-   "time": "2026/11/03",
-   "url": "https://www.cna.com.tw/news/afe/202611030266.aspx"
-  },
-  {
-   "id": "sinopac",
-   "cat": "財經",
-   "title": "民眾永豐銀帳戶錢自動轉出！金管會：共427筆、419人、金額4,000多萬元",
-   "short": "永豐銀帳戶自動轉出　419人受影響",
-   "src": "工商時報",
-   "time": "2026/11/03",
-   "url": "https://www.ctee.com.tw/news/20261103701577-430301",
+   "time": "2026/11/04",
+   "url": "https://www.cna.com.tw/news/afe/202611040332.aspx",
    "top": 3
   },
   {
-   "id": "prudential",
+   "id": "estatetax",
    "cat": "保險理財",
-   "title": "保誠白皮書：9成高資產族群具財富傳承需求 僅3.7%完成規劃",
-   "short": "保誠白皮書：僅3.7%完成傳承規劃",
-   "src": "中央社",
-   "time": "2026/11/03",
-   "url": "https://www.cna.com.tw/news/afe/202611030333.aspx",
+   "title": "過世前2年內贈孫200萬 遺產稅誰繳？國稅局揭新制算法",
+   "short": "死亡前2年贈孫　遺產稅新制算法",
+   "src": "工商時報",
+   "time": "2026/11/04",
+   "url": "https://www.ctee.com.tw/news/20261104701558-430103",
    "top": 4
   },
   {
-   "id": "cyberins",
+   "id": "planreverse",
    "cat": "保險理財",
-   "title": "資安險前三季保費 年增近4成",
-   "short": "資安險前三季保費5.64億　年增近4成",
-   "src": "工商時報",
-   "time": "2026/11/03",
-   "url": "https://www.ctee.com.tw/news/20261103700305-430305"
-  },
-  {
-   "id": "etf00406a",
-   "cat": "保險理財",
-   "title": "00406A暴配19％，本金60萬就能月領1萬？高配息不是白吃的午餐",
-   "short": "00406A配息誘人　高配息不等於高報酬",
+   "title": "理財規劃怎麼做？上班族從人生願景逆推的五個步驟",
+   "short": "理財規劃五步驟　從人生願景逆推",
    "src": "今周刊",
-   "time": "2026/11/03",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611030034/"
+   "time": "2026/11/04",
+   "url": "https://www.businesstoday.com.tw/article/category/80401/post/202611030023/"
   },
   {
-   "id": "blackrock",
+   "id": "cyberguard",
    "cat": "保險理財",
-   "title": "「無聊的7%債息」也能安心睡？獨家專訪貝萊德投資長：別只賭AI成長",
-   "short": "貝萊德投資長：無聊的7%債息也能安心睡",
+   "title": "有了AI如虎添翼！駭客猖獗、銀行電商都受害，6招保護你的錢",
+   "short": "駭客猖獗　6招保護你的錢",
    "src": "天下雜誌",
-   "time": "2026/11/03",
-   "url": "https://www.cw.com.tw/article/5143543"
+   "time": "2026/11/04",
+   "url": "https://www.cw.com.tw/article/5143567"
   },
   {
-   "id": "etf0050",
+   "id": "etf00631l",
    "cat": "保險理財",
-   "title": "40歲存0050，幾歲轉0056？達人揭最佳轉換年紀",
-   "short": "0050何時轉0056？退休被動收入差一倍",
+   "title": "0050賺5％、00631L卻負報酬！正2「賺2倍」最大陷阱",
+   "short": "0050正2近半年負報酬　槓桿陷阱",
    "src": "今周刊",
-   "time": "2026/11/03",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611030019/"
+   "time": "2026/11/04",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611040070/"
   },
   {
-   "id": "elderhi",
+   "id": "diabetesckm",
    "cat": "健康醫療",
-   "title": "逾8成長者免健保費 3大醫護團發聲籲重新審視",
-   "short": "逾8成長者免健保費　三大醫護團籲審視",
+   "title": "逾5千糖友追蹤研究 每4人有1人屬大血管疾病高風險",
+   "short": "逾5千糖友追蹤　1/4屬大血管高風險",
    "src": "中央社",
-   "time": "2026/11/03",
-   "url": "https://www.cna.com.tw/news/ahel/202611030228.aspx",
+   "time": "2026/11/04",
+   "url": "https://www.cna.com.tw/news/ahel/202611040338.aspx",
    "top": 5
   },
   {
-   "id": "heimlich",
+   "id": "insulinres",
    "cat": "健康醫療",
-   "title": "長者吃牛肉捲餅噎到昏迷 彰基兩對夫妻接力哈姆立克救命",
-   "short": "長者哽塞昏迷　彰基員工接力哈姆立克救命",
+   "title": "如何擺脫胰島素阻抗危機？醫師建議從改善這兩個日常習慣開始",
+   "short": "血糖正常也可能胰島素阻抗",
    "src": "工商時報",
-   "time": "2026/11/03",
-   "url": "https://www.ctee.com.tw/news/20261103701922-431401"
+   "time": "2026/11/04",
+   "url": "https://www.ctee.com.tw/news/20261104700630-430905"
   },
   {
-   "id": "yaodaiwei",
+   "id": "fruitkidney",
    "cat": "健康醫療",
-   "title": "不想再吃抗憂鬱藥 姚黛瑋45歲開始運動",
-   "short": "姚黛瑋：45歲開始運動走出憂鬱黑洞",
+   "title": "腎臟科醫師：5大吃水果「地雷習慣」，嚴重恐導致洗腎",
+   "short": "吃水果5大地雷　傷腎恐洗腎",
    "src": "天下雜誌",
-   "time": "2026/11/02",
-   "url": "https://www.cw.com.tw/article/5143529"
+   "time": "2026/11/04",
+   "url": "https://www.cw.com.tw/article/5143468"
   },
   {
-   "id": "eyestroke",
+   "id": "pneumothorax",
    "cat": "健康醫療",
-   "title": "早上起床看不清楚，以為度數變深，竟是眼中風？",
-   "short": "眼中風：黃金治療時間與高風險群",
+   "title": "看診救千人，研究救萬人，陳晉興教授改寫全球氣胸治療準則",
+   "short": "陳晉興改寫全球氣胸治療準則",
    "src": "今周刊",
-   "time": "2026/11/03",
-   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202611020039/"
+   "time": "2026/11/04",
+   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202611040069/"
   }
  ],
  "posters": [
