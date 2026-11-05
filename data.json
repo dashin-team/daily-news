@@ -1,32 +1,32 @@
 {
- "date": "2026.11.05",
- "asof": "2026/11/05",
- "idx_note": "美股為美東 11/04（週三）收盤；台股為 11/04（週三）收盤（台股 11/05 尚未開盤）",
+ "date": "2026.11.06",
+ "asof": "2026/11/06",
+ "idx_note": "美股為美東 11/05（週四）收盤；台股為 11/05（週四）收盤（台股 11/06 尚未開盤）",
  "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
   [
    "道瓊",
-   "53,356.12",
-   "+1,569.40",
-   "+3.03%"
+   "51,523.06",
+   "-1,833.06",
+   "-3.44%"
   ],
   [
    "標普500",
-   "7,688.62",
-   "+119.70",
-   "+1.58%"
+   "7,353.73",
+   "-334.89",
+   "-4.36%"
   ],
   [
    "那斯達克",
-   "25,736.51",
-   "+364.50",
-   "+1.44%"
+   "24,315.00",
+   "-1,421.51",
+   "-5.52%"
   ],
   [
    "台股加權",
-   "42,948.91",
-   "-358.63",
-   "-0.83%"
+   "41,574.72",
+   "-1,374.19",
+   "-3.20%"
   ]
  ],
  "cats": [
@@ -36,144 +36,144 @@
  ],
  "items": [
   {
-   "id": "twdfx",
+   "id": "twblood",
    "cat": "財經",
-   "title": "美國期中選舉》台幣貶不停 33元保衛戰開打",
-   "short": "台幣貶不停　33元保衛戰開打",
+   "title": "資金大洗牌 台股急需輸血",
+   "short": "台股連六黑　急需輸血護盤",
    "src": "工商時報",
-   "time": "2026/11/05",
-   "url": "https://www.ctee.com.tw/news/20261105700055-439901",
+   "time": "2026/11/06",
+   "url": "https://www.ctee.com.tw/news/20261106700037-439901",
    "top": 1
   },
   {
-   "id": "adpoct",
+   "id": "twdweak",
    "cat": "財經",
-   "title": "美國10月小非農高於預期 民間就業增8.6萬人、薪資成長強勁",
-   "short": "美10月小非農增8.6萬　薪資強勁",
-   "src": "中央社",
-   "time": "2026/11/04",
-   "url": "https://www.cna.com.tw/news/aopl/202611040375.aspx"
-  },
-  {
-   "id": "memorydrop",
-   "cat": "財經",
-   "title": "記憶體股殺逾半根跌停 華邦電遭外資狂倒逾4萬張 法人砍目標價",
-   "short": "記憶體股殺逾半根跌停　法人砍目標價",
-   "src": "今周刊",
-   "time": "2026/11/04",
-   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611040025/"
-  },
-  {
-   "id": "bluewave",
-   "cat": "財經",
-   "title": "藍潮來襲、民主黨橫掃國會，AI資料中心不妙了？美股何時回穩？",
-   "short": "藍潮橫掃國會　AI資料中心受考驗",
-   "src": "天下雜誌",
-   "time": "2026/11/04",
-   "url": "https://www.cw.com.tw/article/5143557"
-  },
-  {
-   "id": "euroinfl",
-   "cat": "財經",
-   "title": "歐元區10月通膨率4%創3年新高 預料歐央行下月將升息",
-   "short": "歐元區通膨4%創3年新高",
-   "src": "中央社",
-   "time": "2026/11/04",
-   "url": "https://www.cna.com.tw/news/aopl/202611040354.aspx"
-  },
-  {
-   "id": "taiexv",
-   "cat": "財經",
-   "title": "美國期中選舉》跌出甜蜜點、兩大利多助攻 台股V轉秀 締六大紀錄",
-   "short": "台股V轉秀　締六大紀錄",
+   "title": "資金大洗牌 新台幣成最弱亞幣",
+   "short": "新台幣最弱亞幣　逼近33元",
    "src": "工商時報",
-   "time": "2026/11/05",
-   "url": "https://www.ctee.com.tw/news/20261105700052-439901",
+   "time": "2026/11/06",
+   "url": "https://www.ctee.com.tw/news/20261106700040-439901",
    "top": 2
   },
   {
-   "id": "fitchshinkong",
-   "cat": "保險理財",
-   "title": "惠譽調升新光人壽評等 展望轉穩定",
-   "short": "惠譽調升新光人壽評等",
+   "id": "uscrash",
+   "cat": "財經",
+   "title": "美期中選舉引發AI投資疑慮　美股收盤重挫",
+   "short": "美股重挫　道瓊跌逾3.4%",
    "src": "中央社",
-   "time": "2026/11/04",
-   "url": "https://www.cna.com.tw/news/afe/202611040332.aspx",
+   "time": "2026/11/06",
+   "url": "https://www.cna.com.tw/news/afe/202611060013.aspx"
+  },
+  {
+   "id": "twdrop42k",
+   "cat": "財經",
+   "title": "台股大跌原因？指數殺破42K外資再賣超千億，4天套現4331億…一表看「川普跛腳」誰慘誰賺",
+   "short": "台股失守42K　外資4天賣4331億",
+   "src": "今周刊",
+   "time": "2026/11/05",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611050005/"
+  },
+  {
+   "id": "midterm3",
+   "cat": "財經",
+   "title": "美國期中選舉對台3大衝擊》拒蓋AI資料中心、德州投資添變數、台美軍援卡關？",
+   "short": "期中選舉對台　三大衝擊一次看",
+   "src": "天下雜誌",
+   "time": "2026/11/05",
+   "url": "https://www.cw.com.tw/article/5143577",
    "top": 3
   },
   {
-   "id": "estatetax",
-   "cat": "保險理財",
-   "title": "過世前2年內贈孫200萬 遺產稅誰繳？國稅局揭新制算法",
-   "short": "死亡前2年贈孫　遺產稅新制算法",
+   "id": "texasdc",
+   "cat": "財經",
+   "title": "德州變天 資料中心鏈犯愁",
+   "short": "德州變天　資料中心鏈犯愁",
    "src": "工商時報",
+   "time": "2026/11/06",
+   "url": "https://www.ctee.com.tw/news/20261106700045-439901"
+  },
+  {
+   "id": "bankapp",
+   "cat": "保險理財",
+   "title": "上千萬用戶注意！網銀手機App今晚不更新 明天恐直接罷工",
+   "short": "網銀App憑證換發　今晚不更新恐停用",
+   "src": "工商時報",
+   "time": "2026/11/05",
+   "url": "https://www.ctee.com.tw/news/20261105702125-430301"
+  },
+  {
+   "id": "etf0050",
+   "cat": "保險理財",
+   "title": "40歲拿100萬買0050 退休股息怎麼差近一倍？達人試算4種換0056時機",
+   "short": "0050換0056　晚換月領差近一倍",
+   "src": "工商時報",
+   "time": "2026/11/05",
+   "url": "https://www.ctee.com.tw/news/20261105700817-430403"
+  },
+  {
+   "id": "etfactive",
+   "cat": "保險理財",
+   "title": "超車00981A！00980A年化配息12％，竟比00406A更會賺？3個月獲利差2.6倍...台股殺不停，主動式ETF更耐震？",
+   "short": "主動式ETF抗震　00980A跑贏大盤",
+   "src": "今周刊",
    "time": "2026/11/04",
-   "url": "https://www.ctee.com.tw/news/20261104701558-430103",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611040016/"
+  },
+  {
+   "id": "fundcrunch",
+   "cat": "保險理財",
+   "title": "借錢好難！有房無債為何被拒貸款？台灣資金荒衝擊房貸、企業與國庫",
+   "short": "台灣資金荒　有房無債也貸不到",
+   "src": "天下雜誌",
+   "time": "2026/11/03",
+   "url": "https://www.cw.com.tw/article/5143547",
    "top": 4
   },
   {
-   "id": "planreverse",
+   "id": "fscinnov",
    "cat": "保險理財",
-   "title": "理財規劃怎麼做？上班族從人生願景逆推的五個步驟",
-   "short": "理財規劃五步驟　從人生願景逆推",
-   "src": "今周刊",
-   "time": "2026/11/04",
-   "url": "https://www.businesstoday.com.tw/article/category/80401/post/202611030023/"
-  },
-  {
-   "id": "cyberguard",
-   "cat": "保險理財",
-   "title": "有了AI如虎添翼！駭客猖獗、銀行電商都受害，6招保護你的錢",
-   "short": "駭客猖獗　6招保護你的錢",
-   "src": "天下雜誌",
-   "time": "2026/11/04",
-   "url": "https://www.cw.com.tw/article/5143567"
-  },
-  {
-   "id": "etf00631l",
-   "cat": "保險理財",
-   "title": "0050賺5％、00631L卻負報酬！正2「賺2倍」最大陷阱",
-   "short": "0050正2近半年負報酬　槓桿陷阱",
-   "src": "今周刊",
-   "time": "2026/11/04",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611040070/"
-  },
-  {
-   "id": "diabetesckm",
-   "cat": "健康醫療",
-   "title": "逾5千糖友追蹤研究 每4人有1人屬大血管疾病高風險",
-   "short": "逾5千糖友追蹤　1/4屬大血管高風險",
+   "title": "拚金融創新　金管會修正業務試辦要點",
+   "short": "金管會修試辦要點　鼓勵金融創新",
    "src": "中央社",
-   "time": "2026/11/04",
-   "url": "https://www.cna.com.tw/news/ahel/202611040338.aspx",
+   "time": "2026/11/05",
+   "url": "https://www.cna.com.tw/news/afe/202611050312.aspx"
+  },
+  {
+   "id": "fakemed",
+   "cat": "健康醫療",
+   "title": "近2年網路廣告偽藥罰逾千萬元　環部籲勿信誇大宣傳",
+   "short": "網路偽藥罰逾千萬　勿信誇大宣傳",
+   "src": "中央社",
+   "time": "2026/11/05",
+   "url": "https://www.cna.com.tw/news/ahel/202611050263.aspx"
+  },
+  {
+   "id": "nhifee",
+   "cat": "健康醫療",
+   "title": "政院明日不副署65歲以上免健保費？卓揆指示衛福部審慎評估",
+   "short": "65歲免健保費　政院審慎評估副署",
+   "src": "工商時報",
+   "time": "2026/11/05",
+   "url": "https://www.ctee.com.tw/news/20261105701403-430101",
    "top": 5
   },
   {
-   "id": "insulinres",
+   "id": "nhifestand",
    "cat": "健康醫療",
-   "title": "如何擺脫胰島素阻抗危機？醫師建議從改善這兩個日常習慣開始",
-   "short": "血糖正常也可能胰島素阻抗",
-   "src": "工商時報",
-   "time": "2026/11/04",
-   "url": "https://www.ctee.com.tw/news/20261104700630-430905"
+   "title": "醫護否認被動員反長者免健保費　藥界籲審慎評估財源",
+   "short": "醫護否認被動員　藥界籲審慎財源",
+   "src": "中央社",
+   "time": "2026/11/05",
+   "url": "https://www.cna.com.tw/news/ahel/202611050232.aspx"
   },
   {
-   "id": "fruitkidney",
+   "id": "antiinflam",
    "cat": "健康醫療",
-   "title": "腎臟科醫師：5大吃水果「地雷習慣」，嚴重恐導致洗腎",
-   "short": "吃水果5大地雷　傷腎恐洗腎",
+   "title": "營養師：50歲以上女性，吃5種食物抗發炎",
+   "short": "50歲後抗發炎　營養師推5種食物",
    "src": "天下雜誌",
-   "time": "2026/11/04",
-   "url": "https://www.cw.com.tw/article/5143468"
-  },
-  {
-   "id": "pneumothorax",
-   "cat": "健康醫療",
-   "title": "看診救千人，研究救萬人，陳晉興教授改寫全球氣胸治療準則",
-   "short": "陳晉興改寫全球氣胸治療準則",
-   "src": "今周刊",
-   "time": "2026/11/04",
-   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202611040069/"
+   "time": "2026/10/28",
+   "url": "https://www.cw.com.tw/article/5143472"
   }
  ],
  "posters": [
