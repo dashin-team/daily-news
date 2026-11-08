@@ -1,7 +1,7 @@
 {
- "date": "2026.11.08",
- "asof": "2026/11/08",
- "idx_note": "美股為美東 11/06（週五）收盤；台股為 11/06（週五）收盤（週末休市，下一交易日為 11/09 週一）",
+ "date": "2026.11.09",
+ "asof": "2026/11/09",
+ "idx_note": "美股為美東 11/06（週五）收盤；台股為 11/06（週五）收盤（本日 11/09 週一開盤前編輯）",
  "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
   [
@@ -36,144 +36,144 @@
  ],
  "items": [
   {
-   "id": "soxrebound",
+   "id": "nsfguard",
    "cat": "財經",
-   "title": "費半強彈 台積電ADR勁揚逾6％",
-   "short": "費半強彈　台積電ADR漲逾6%",
+   "title": "護盤大軍到 聯袂壓制空方",
+   "short": "國安基金進場　聯袂壓制空方",
    "src": "工商時報",
-   "time": "2026/11/08",
-   "url": "https://www.ctee.com.tw/news/20261108700021-439901",
+   "time": "2026/11/09",
+   "url": "https://www.ctee.com.tw/news/20261109700031-439901",
    "top": 1
   },
   {
-   "id": "sbl16",
+   "id": "tenkdrop",
    "cat": "財經",
-   "title": "16檔高借券股 拚反攻",
-   "short": "限空令上路　16檔高借券股拚反攻",
-   "src": "工商時報",
+   "title": "台股1個月以來急跌萬點　法人：不宜貿然搶反彈",
+   "short": "台股月跌萬點　法人：勿貿然搶反彈",
+   "src": "中央社",
    "time": "2026/11/08",
-   "url": "https://www.ctee.com.tw/news/20261108700018-439901",
+   "url": "https://www.cna.com.tw/news/afe/202611080026.aspx",
    "top": 2
   },
   {
-   "id": "twdstop",
+   "id": "aiglobal",
    "cat": "財經",
-   "title": "新台幣逆勢強彈現止貶曙光？專家：反轉仍有長路",
-   "short": "新台幣強彈　止貶仍有長路",
-   "src": "中央社",
-   "time": "2026/11/07",
-   "url": "https://www.cna.com.tw/news/afe/202611070039.aspx",
+   "title": "AI投資擴散 台鏈搶全球商機",
+   "short": "AI投資擴散　台鏈搶全球商機",
+   "src": "工商時報",
+   "time": "2026/11/09",
+   "url": "https://www.ctee.com.tw/news/20261109700037-439901",
    "top": 3
   },
   {
-   "id": "taipower",
+   "id": "lvzongyao",
    "cat": "財經",
-   "title": "台電也想跟台積電搶人才！曾文生談AI時代兩大關鍵：電力與人力",
-   "short": "台電曾文生　AI時代拚電力人力",
-   "src": "天下雜誌",
-   "time": "2026/11/06",
-   "url": "https://www.cw.com.tw/article/5143600"
-  },
-  {
-   "id": "marginrecord",
-   "cat": "財經",
-   "title": "融資大減破史上紀錄！費半漲了台積電ADR飆6%，台指期夜盤返4萬",
-   "short": "融資大減創紀錄　台指期夜盤返4萬",
+   "title": "週一台股一定漲？呂宗耀：國安基金這次不只是救市",
+   "short": "呂宗耀：國安基金不只是救市",
    "src": "今周刊",
-   "time": "2026/11/07",
-   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611070002/"
+   "time": "2026/11/08",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611080010/"
   },
   {
-   "id": "soxvalue",
+   "id": "shortlimit",
    "cat": "財經",
-   "title": "費半暴跌12.2%！AI信仰危機，晶片股究竟跌到哪裡才算便宜？",
-   "short": "費半暴跌12%　晶片股多便宜？",
-   "src": "天下雜誌",
-   "time": "2026/11/06",
-   "url": "https://www.cw.com.tw/article/5143595"
+   "title": "限空令是什麼？11/9開始實施 5大措施、影響一次看",
+   "short": "限空令今上路　5大措施一次看",
+   "src": "今周刊",
+   "time": "2026/11/08",
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611070005/"
   },
   {
-   "id": "bankbuy",
-   "cat": "保險理財",
-   "title": "公股銀救市「愈跌愈買」！聚焦高股息、AI鏈",
-   "short": "公股銀救市　愈跌愈買",
-   "src": "工商時報",
+   "id": "winbond",
+   "cat": "財經",
+   "title": "資料中心限建衝擊台灣AI供應鏈？華邦電焦佑鈞：這之前影響不大",
+   "short": "華邦電焦佑鈞：限建影響不大",
+   "src": "天下雜誌",
    "time": "2026/11/07",
-   "url": "https://www.ctee.com.tw/news/20261107700041-430304",
+   "url": "https://www.cw.com.tw/article/5143621"
+  },
+  {
+   "id": "homecare",
+   "cat": "保險理財",
+   "title": "在宅醫療險 保障缺口優先補",
+   "short": "在宅醫療險上市　先補保障缺口",
+   "src": "工商時報",
+   "time": "2026/11/08",
+   "url": "https://www.ctee.com.tw/news/20261108700076-430305",
    "top": 4
   },
   {
-   "id": "foreignasset",
+   "id": "fhcexposure",
    "cat": "保險理財",
-   "title": "外資資產達外匯存底近3倍　台股震盪掀資金潮考驗央行穩匯",
-   "short": "外資資產近外匯存底3倍",
+   "title": "金控海外曝險33兆飆新高　新加坡再度進前10大曝險國",
+   "short": "金控海外曝險33兆創新高",
    "src": "中央社",
-   "time": "2026/11/07",
-   "url": "https://www.cna.com.tw/news/afe/202611070037.aspx"
+   "time": "2026/11/08",
+   "url": "https://www.cna.com.tw/news/afe/202611080101.aspx"
   },
   {
-   "id": "etfsleep",
+   "id": "etf43",
    "cat": "保險理財",
-   "title": "0050股價跌破90元、0056不到50元…他揭再賠200萬也不慌張的原因",
-   "short": "0050跌破90元　施昇輝不慌",
+   "title": "0050今年來報酬率43%，施昇輝：你殺進殺出有及格？",
+   "short": "0050報酬43%　定期定額別停扣",
    "src": "今周刊",
    "time": "2026/11/07",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611060011/"
+   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202611070013/"
   },
   {
-   "id": "lev2etf",
+   "id": "aivaluation",
    "cat": "保險理財",
-   "title": "台股大跌更要買正2？槓桿ETF優缺點買前必看",
-   "short": "大跌搶正2　槓桿ETF買前必看",
-   "src": "今周刊",
-   "time": "2026/11/07",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611060029/"
+   "title": "美國AI監管疑慮升高　投信：亞洲科技股面臨估值壓力",
+   "short": "AI監管疑慮　亞洲科技股估值承壓",
+   "src": "中央社",
+   "time": "2026/11/08",
+   "url": "https://www.cna.com.tw/news/afe/202611080016.aspx"
   },
   {
-   "id": "banklcr",
+   "id": "munger50",
    "cat": "保險理財",
-   "title": "公股行庫放款被誰卡死？台積電、鴻海竟成「隱形銀行」",
-   "short": "公股行庫LCR緊繃　科技廠成隱形銀行",
+   "title": "查理蒙格：受不了股票暴跌50%，報酬註定平庸",
+   "short": "蒙格：受不了暴跌50%報酬平庸",
    "src": "天下雜誌",
-   "time": "2026/10/29",
-   "url": "https://www.cw.com.tw/article/5143492"
+   "time": "2026/11/05",
+   "url": "https://www.cw.com.tw/article/5143579"
   },
   {
-   "id": "nhi1t",
+   "id": "glp1",
    "cat": "健康醫療",
-   "title": "卓榮泰：健保預算破兆元　具體落實健康台灣",
-   "short": "健保預算破兆　中榮科技大樓動土",
+   "title": "食藥署：瘦瘦針疑不良反應通報達63件　非罕見副作用",
+   "short": "瘦瘦針不良反應通報63件",
    "src": "中央社",
-   "time": "2026/11/07",
-   "url": "https://www.cna.com.tw/news/ahel/202611070104.aspx",
+   "time": "2026/11/08",
+   "url": "https://www.cna.com.tw/news/ahel/202611080124.aspx",
    "top": 5
   },
   {
-   "id": "breastscreen",
+   "id": "hpvmen",
    "cat": "健康醫療",
-   "title": "許維恩罹乳癌挺癌友　籲女性照顧自己、定期篩檢",
-   "short": "許維恩挺癌友　籲定期乳癌篩檢",
-   "src": "中央社",
-   "time": "2026/11/07",
-   "url": "https://www.cna.com.tw/news/ahel/202611070101.aspx"
-  },
-  {
-   "id": "heart7pm",
-   "cat": "健康醫療",
-   "title": "顧心臟「晚上7點後別再做」！心臟科醫揭7件事自己絕不碰",
-   "short": "顧心臟　晚上7點後別做7件事",
+   "title": "響應國際男性健康日！男性HPV疫苗接種增4成",
+   "short": "男性HPV疫苗接種增4成",
    "src": "工商時報",
-   "time": "2026/11/07",
-   "url": "https://www.ctee.com.tw/news/20261107700002-430905"
+   "time": "2026/11/08",
+   "url": "https://www.ctee.com.tw/news/20261108700588-431205"
   },
   {
-   "id": "fiber",
+   "id": "stockanxiety",
    "cat": "健康醫療",
-   "title": "為什麼天天吃沙拉，膳食纖維還不夠？史丹佛醫學權威揭「天然益生菌」",
-   "short": "沙拉不夠纖　天然益生菌護腸",
+   "title": "盯盤盯到心悸、忍不住刷手機？如何遠離盯盤焦慮 醫：3方向調整",
+   "short": "盯盤焦慮　醫師教3招調整",
    "src": "今周刊",
    "time": "2026/11/06",
-   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202611060040/"
+   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611060027/"
+  },
+  {
+   "id": "waistline",
+   "cat": "健康醫療",
+   "title": "未來10年失能風險，不能只看肌力與步速！腰圍更是預測關鍵",
+   "short": "預測失能　腰圍比肌力更關鍵",
+   "src": "天下雜誌",
+   "time": "2026/11/09",
+   "url": "https://www.cw.com.tw/article/5143612"
   }
  ],
  "posters": [
