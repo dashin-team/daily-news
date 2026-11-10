@@ -1,32 +1,32 @@
 {
- "date": "2026.11.10",
- "asof": "2026/11/10",
- "idx_note": "美股為美東 11/09（週一）收盤（中央社）；台股為 11/09（週一）收盤（本日 11/10 週二開盤前編輯）",
+ "date": "2026.11.11",
+ "asof": "2026/11/11",
+ "idx_note": "美股為美東 11/10（週二）收盤（中央社）；台股為 11/10（週二）收盤（中央社；本日 11/11 週三開盤前編輯）",
  "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
   [
    "道瓊",
-   "52,409.01",
-   "+1,123.28",
-   "+2.19%"
+   "52,231.89",
+   "-157.86",
+   "-0.30%"
   ],
   [
    "標普500",
-   "7,567.25",
-   "+190.39",
-   "+2.58%"
+   "7,520.93",
+   "-29.01",
+   "-0.38%"
   ],
   [
    "那斯達克",
-   "25,276.97",
-   "+697.55",
-   "+2.84%"
+   "25,065.88",
+   "-187.26",
+   "-0.74%"
   ],
   [
    "台股加權",
-   "41,661.70",
-   "+1,960.06",
-   "+4.94%"
+   "42,711.92",
+   "+1,050.22",
+   "+2.52%"
   ]
  ],
  "cats": [
@@ -36,144 +36,144 @@
  ],
  "items": [
   {
-   "id": "fivewinds",
+   "id": "twrebound",
    "cat": "財經",
-   "title": "國安基金點火 台股待五道東風",
-   "short": "國安基金點火　台股待五道東風",
+   "title": "台股爆量飆千點 暫化破底危機",
+   "short": "台股爆量飆千點　暫化破底危機",
    "src": "工商時報",
-   "time": "2026/11/10",
-   "url": "https://www.ctee.com.tw/news/20261110700043-439901",
+   "time": "2026/11/11",
+   "url": "https://www.ctee.com.tw/news/20261111700050-439901",
    "top": 1
   },
   {
-   "id": "export900",
+   "id": "revenue",
    "cat": "財經",
-   "title": "10月出口好驚喜 衝破900億美元",
-   "short": "10月出口首破900億美元",
+   "title": "上市櫃前十月營收 提前登頂",
+   "short": "上市櫃前十月營收　提前登頂",
    "src": "工商時報",
-   "time": "2026/11/10",
-   "url": "https://www.ctee.com.tw/news/20261110700040-439901",
+   "time": "2026/11/11",
+   "url": "https://www.ctee.com.tw/news/20261111700043-439901",
    "top": 2
   },
   {
-   "id": "qisda",
+   "id": "uscpi",
    "cat": "財經",
-   "title": "佳世達：資料中心建置放緩經濟仍成長　AI伺服器明年放量",
-   "short": "佳世達：AI伺服器明年放量",
+   "title": "通膨高於預期　美債殖利率全面跳升、12月恐升息2碼",
+   "short": "美通膨高於預期　12月恐升息2碼",
    "src": "中央社",
-   "time": "2026/11/09",
-   "url": "https://www.cna.com.tw/news/afe/202611090265.aspx"
-  },
-  {
-   "id": "twdweak",
-   "cat": "財經",
-   "title": "台股強彈難擋外資匯出　新台幣爆量重貶逾1角收32.882元",
-   "short": "外資匯出　新台幣重貶收32.882元",
-   "src": "中央社",
-   "time": "2026/11/09",
-   "url": "https://www.cna.com.tw/news/afe/202611090222.aspx",
+   "time": "2026/11/11",
+   "url": "https://www.cna.com.tw/news/afe/202611110004.aspx",
    "top": 3
   },
   {
-   "id": "nvdaspy",
+   "id": "foreignsell",
    "cat": "財經",
-   "title": "黃仁勳陷諜影風暴！費半暴漲、輝達獨跌4%，Google補刀",
-   "short": "黃仁勳陷諜影風暴　輝達獨跌4%",
+   "title": "外資連9賣台股續砍341億元　連23賣台積電",
+   "short": "外資連9賣　續砍341億元",
+   "src": "中央社",
+   "time": "2026/11/10",
+   "url": "https://www.cna.com.tw/news/afe/202611100353.aspx"
+  },
+  {
+   "id": "chasebounce",
+   "cat": "財經",
+   "title": "這波反彈要追多嗎？專家：輝達醜聞還有得燒",
+   "short": "這波反彈要追多嗎？",
    "src": "天下雜誌",
    "time": "2026/11/10",
-   "url": "https://www.cw.com.tw/article/5143660"
+   "url": "https://www.cw.com.tw/article/5143664"
   },
   {
-   "id": "starbucks",
+   "id": "jensenstake",
    "cat": "財經",
-   "title": "誰把星巴克變小氣了？揭開去冰補奶加價15元的決策內幕",
-   "short": "星巴克去冰補奶加價15元內幕",
+   "title": "黃仁勳撐得過這一次的風暴嗎？3.6%持股成為權力弱點",
+   "short": "黃仁勳3.6%持股成權力弱點",
    "src": "天下雜誌",
-   "time": "2026/11/09",
-   "url": "https://www.cw.com.tw/article/5143661"
+   "time": "2026/11/10",
+   "url": "https://www.cw.com.tw/article/5143662"
   },
   {
-   "id": "lifeai",
+   "id": "policyloan",
    "cat": "保險理財",
-   "title": "卡位AI 三大壽險各有算盤",
-   "short": "卡位AI　三大壽險各有算盤",
+   "title": "台股強震、保戶籌錢！壽險爆保單解約、借款潮",
+   "short": "壽險爆保單解約、借款潮",
    "src": "工商時報",
-   "time": "2026/11/09",
-   "url": "https://www.ctee.com.tw/news/20261109700097-430305",
+   "time": "2026/11/10",
+   "url": "https://www.ctee.com.tw/news/20261110700100-430305",
    "top": 4
   },
   {
-   "id": "etfresist",
+   "id": "fubonsenior",
    "cat": "保險理財",
-   "title": "台股ETF抗跌 前20強全被動",
-   "short": "台股ETF抗跌　前20強全被動",
+   "title": "富邦產險推樂齡專案 最高80歲可投保、85歲可續保",
+   "short": "富邦產險推樂齡專案",
    "src": "工商時報",
-   "time": "2026/11/09",
-   "url": "https://www.ctee.com.tw/news/20261109700249-430403"
+   "time": "2026/11/10",
+   "url": "https://www.ctee.com.tw/news/20261110700751-430305"
   },
   {
-   "id": "guogongke",
+   "id": "digitalins",
    "cat": "保險理財",
-   "title": "國安基金進場、融資大幅瘦身，台股反彈能否延續？郭恭克：AI估值與外資動向是關鍵",
-   "short": "郭恭克：AI估值與外資是關鍵",
-   "src": "今周刊",
-   "time": "2026/11/09",
-   "url": "https://www.businesstoday.com.tw/article/category/183008/post/202611090037/"
-  },
-  {
-   "id": "hugo4lines",
-   "cat": "保險理財",
-   "title": "買個股10年白忙一場！40歲毅然轉向... 4道財務防線＋3年提領水塔，股災大跌也不怕",
-   "short": "4道財務防線＋3年提領水塔",
-   "src": "今周刊",
-   "time": "2026/11/09",
-   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202611090001/"
-  },
-  {
-   "id": "fiveq",
-   "cat": "保險理財",
-   "title": "台股股災分析》AI股還是可以逢低買進？投資人關鍵五問",
-   "short": "AI股能逢低買？投資人關鍵五問",
-   "src": "天下雜誌",
-   "time": "2026/11/06",
-   "url": "https://www.cw.com.tw/article/5143608"
-  },
-  {
-   "id": "dengue",
-   "cat": "健康醫療",
-   "title": "富國島13人團8日遊2人確診登革熱　同團11人持續監測",
-   "short": "富國島旅團2人確診登革熱",
+   "title": "數位保險3業者申設　2家完成首次外審待補件",
+   "short": "數位保險3業者申設",
    "src": "中央社",
-   "time": "2026/11/09",
-   "url": "https://www.cna.com.tw/news/ahel/202611090214.aspx",
+   "time": "2026/11/10",
+   "url": "https://www.cna.com.tw/news/afe/202611100318.aspx"
+  },
+  {
+   "id": "inherit",
+   "cat": "保險理財",
+   "title": "長輩遺產沒超過免稅額，為何銀行存款不給領？遺產繼承流程一次看",
+   "short": "遺產繼承流程一次看",
+   "src": "今周刊",
+   "time": "2026/11/10",
+   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202611100031/"
+  },
+  {
+   "id": "etf878",
+   "cat": "保險理財",
+   "title": "00878年化配息15％能撐多久？台股若反轉，每月現金流恐差1.4萬元",
+   "short": "00878高配息能撐多久？",
+   "src": "今周刊",
+   "time": "2026/11/10",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611100028/"
+  },
+  {
+   "id": "lungcancer",
+   "cat": "健康醫療",
+   "title": "「小眾肺癌」免疫治療逾300萬　家屬嘆非一般人能負擔",
+   "short": "小眾肺癌免疫治療逾300萬",
+   "src": "中央社",
+   "time": "2026/11/10",
+   "url": "https://www.cna.com.tw/news/ahel/202611100219.aspx",
    "top": 5
   },
   {
-   "id": "evicd",
+   "id": "ntuher",
    "cat": "健康醫療",
-   "title": "心律不整命危　三總新植入術搶救昏迷士官重返高強度勤務",
-   "short": "三總新植入術　救回心律不整士官",
+   "title": "台大急診單日破300人天數破百　整合病房擬12月試營運",
+   "short": "台大急診單日破300人天數破百",
    "src": "中央社",
-   "time": "2026/11/09",
-   "url": "https://www.cna.com.tw/news/ahel/202611090247.aspx"
+   "time": "2026/11/10",
+   "url": "https://www.cna.com.tw/news/ahel/202611100246.aspx"
   },
   {
-   "id": "gastroscope",
+   "id": "vessel",
    "cat": "健康醫療",
-   "title": "沒麻醉照胃鏡20分鐘像酷刑「有生以來最痛苦」！消化權威林肇堂苦練無痛技術",
-   "short": "林肇堂苦練無痛胃鏡技術",
+   "title": "血管19歲最健康，35歲走下坡！吃對3類礦物質顧血管",
+   "short": "血管35歲走下坡　吃對礦物質顧血管",
    "src": "今周刊",
-   "time": "2026/11/09",
-   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202611090040/"
+   "time": "2026/11/10",
+   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202611100034/"
   },
   {
-   "id": "pharmacy",
+   "id": "jointex",
    "cat": "健康醫療",
-   "title": "藥局掀倒閉潮？疫情賺爆為何現在一間間關門…藥師曝背後6大壓力",
-   "short": "藥局掀關店潮　藥師曝6大壓力",
-   "src": "今周刊",
-   "time": "2026/11/08",
-   "url": "https://www.businesstoday.com.tw/article/category/183030/post/202611080009/"
+   "title": "65歲後做5種運動，讓關節年輕10歲",
+   "short": "65歲後做5種運動　關節年輕10歲",
+   "src": "天下雜誌",
+   "time": "2026/11/10",
+   "url": "https://www.cw.com.tw/article/5143665"
   }
  ],
  "posters": [
