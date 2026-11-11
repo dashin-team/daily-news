@@ -1,32 +1,32 @@
 {
- "date": "2026.11.11",
- "asof": "2026/11/11",
- "idx_note": "美股為美東 11/10（週二）收盤（中央社）；台股為 11/10（週二）收盤（中央社；本日 11/11 週三開盤前編輯）",
+ "date": "2026.11.12",
+ "asof": "2026/11/12",
+ "idx_note": "美股為美東 11/11（週三）收盤（中央社）；台股為 11/11（週三）收盤（中央社、工商時報；本日 11/12 週四開盤前編輯）",
  "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
   [
    "道瓊",
-   "52,231.89",
-   "-157.86",
-   "-0.30%"
+   "52,486.49",
+   "+254.60",
+   "+0.49%"
   ],
   [
    "標普500",
-   "7,520.93",
-   "-29.01",
-   "-0.38%"
+   "7,619.38",
+   "+98.45",
+   "+1.31%"
   ],
   [
    "那斯達克",
-   "25,065.88",
-   "-187.26",
-   "-0.74%"
+   "25,466.19",
+   "+400.31",
+   "+1.60%"
   ],
   [
    "台股加權",
-   "42,711.92",
-   "+1,050.22",
-   "+2.52%"
+   "44,257.15",
+   "+1,545.23",
+   "+3.62%"
   ]
  ],
  "cats": [
@@ -36,144 +36,144 @@
  ],
  "items": [
   {
-   "id": "twrebound",
+   "id": "twvturn",
    "cat": "財經",
-   "title": "台股爆量飆千點 暫化破底危機",
-   "short": "台股爆量飆千點　暫化破底危機",
+   "title": "政策利多齊發、上市櫃營收飆高 台股V轉氣勢強 月線在望",
+   "short": "台股V轉氣勢強　月線在望",
    "src": "工商時報",
-   "time": "2026/11/11",
-   "url": "https://www.ctee.com.tw/news/20261111700050-439901",
+   "time": "2026/11/12",
+   "url": "https://www.ctee.com.tw/news/20261112700043-439901",
    "top": 1
   },
   {
-   "id": "revenue",
+   "id": "fedhawk",
    "cat": "財經",
-   "title": "上市櫃前十月營收 提前登頂",
-   "short": "上市櫃前十月營收　提前登頂",
+   "title": "Fed鷹風陣陣 12月升息2碼？",
+   "short": "Fed鷹風陣陣　12月升息2碼？",
    "src": "工商時報",
-   "time": "2026/11/11",
-   "url": "https://www.ctee.com.tw/news/20261111700043-439901",
+   "time": "2026/11/12",
+   "url": "https://www.ctee.com.tw/news/20261112700046-439901",
    "top": 2
   },
   {
-   "id": "uscpi",
+   "id": "tsmcai",
    "cat": "財經",
-   "title": "通膨高於預期　美債殖利率全面跳升、12月恐升息2碼",
-   "short": "美通膨高於預期　12月恐升息2碼",
-   "src": "中央社",
+   "title": "美債大跌，輝達續挫｜台積電砸10億美元，押Anthropic與OpenAI",
+   "short": "台積電砸10億美元押兩大AI",
+   "src": "天下雜誌",
    "time": "2026/11/11",
-   "url": "https://www.cna.com.tw/news/afe/202611110004.aspx",
+   "url": "https://www.cw.com.tw/article/5143673",
    "top": 3
   },
   {
-   "id": "foreignsell",
+   "id": "twdfx",
    "cat": "財經",
-   "title": "外資連9賣台股續砍341億元　連23賣台積電",
-   "short": "外資連9賣　續砍341億元",
+   "title": "台股連3漲收復44000點　新台幣升勢乏力收32.86元",
+   "short": "台股收復44000點　新台幣收32.86元",
    "src": "中央社",
-   "time": "2026/11/10",
-   "url": "https://www.cna.com.tw/news/afe/202611100353.aspx"
+   "time": "2026/11/11",
+   "url": "https://www.cna.com.tw/news/afe/202611110283.aspx"
   },
   {
-   "id": "chasebounce",
+   "id": "wage",
    "cat": "財經",
-   "title": "這波反彈要追多嗎？專家：輝達醜聞還有得燒",
-   "short": "這波反彈要追多嗎？",
+   "title": "受僱員工前9月月薪成長2.93%　創26年同期次高",
+   "short": "前9月月薪成長2.93%",
+   "src": "中央社",
+   "time": "2026/11/11",
+   "url": "https://www.cna.com.tw/news/afe/202611110277.aspx"
+  },
+  {
+   "id": "aicontrol",
+   "cat": "財經",
+   "title": "中國嚴管AI人才出境，民主黨也想限制資料中心　台商與科技業面臨什麼風險？",
+   "short": "美中AI管制升溫　台商風險上升",
    "src": "天下雜誌",
    "time": "2026/11/10",
-   "url": "https://www.cw.com.tw/article/5143664"
+   "url": "https://www.cw.com.tw/article/5143634"
   },
   {
-   "id": "jensenstake",
-   "cat": "財經",
-   "title": "黃仁勳撐得過這一次的風暴嗎？3.6%持股成為權力弱點",
-   "short": "黃仁勳3.6%持股成權力弱點",
-   "src": "天下雜誌",
-   "time": "2026/11/10",
-   "url": "https://www.cw.com.tw/article/5143662"
-  },
-  {
-   "id": "policyloan",
+   "id": "silverins",
    "cat": "保險理財",
-   "title": "台股強震、保戶籌錢！壽險爆保單解約、借款潮",
-   "short": "壽險爆保單解約、借款潮",
+   "title": "產險攻銀髮市場 保障擴大",
+   "short": "產險攻銀髮市場　保障擴大",
    "src": "工商時報",
-   "time": "2026/11/10",
-   "url": "https://www.ctee.com.tw/news/20261110700100-430305",
+   "time": "2026/11/11",
+   "url": "https://www.ctee.com.tw/news/20261111700347-430305",
    "top": 4
   },
   {
-   "id": "fubonsenior",
+   "id": "insai",
    "cat": "保險理財",
-   "title": "富邦產險推樂齡專案 最高80歲可投保、85歲可續保",
-   "short": "富邦產險推樂齡專案",
+   "title": "保險業AI使用率升至53％ 國泰產險強化內部治理",
+   "short": "保險業AI使用率升至53％",
    "src": "工商時報",
-   "time": "2026/11/10",
-   "url": "https://www.ctee.com.tw/news/20261110700751-430305"
+   "time": "2026/11/11",
+   "url": "https://www.ctee.com.tw/news/20261111701032-430305"
   },
   {
-   "id": "digitalins",
+   "id": "etf418a",
    "cat": "保險理財",
-   "title": "數位保險3業者申設　2家完成首次外審待補件",
-   "short": "數位保險3業者申設",
-   "src": "中央社",
-   "time": "2026/11/10",
-   "url": "https://www.cna.com.tw/news/afe/202611100318.aspx"
-  },
-  {
-   "id": "inherit",
-   "cat": "保險理財",
-   "title": "長輩遺產沒超過免稅額，為何銀行存款不給領？遺產繼承流程一次看",
-   "short": "遺產繼承流程一次看",
+   "title": "00418A股價10.41元，掛牌熱度破表可以買？有配息？",
+   "short": "主動ETF新兵00418A掛牌",
    "src": "今周刊",
-   "time": "2026/11/10",
-   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202611100031/"
+   "time": "2026/11/11",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611110048/"
   },
   {
-   "id": "etf878",
+   "id": "etf9816",
    "cat": "保險理財",
-   "title": "00878年化配息15％能撐多久？台股若反轉，每月現金流恐差1.4萬元",
-   "short": "00878高配息能撐多久？",
+   "title": "賣飛100張009816，他少賺18萬捶心肝！股價跌到15元該認錯買回？",
+   "short": "賣飛009816該認錯買回？",
    "src": "今周刊",
-   "time": "2026/11/10",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611100028/"
+   "time": "2026/11/11",
+   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611110064/"
   },
   {
-   "id": "lungcancer",
+   "id": "crashq5",
+   "cat": "保險理財",
+   "title": "台股股災分析》AI股還是可以逢低買進？投資人關鍵五問",
+   "short": "AI股還能逢低買進？關鍵五問",
+   "src": "天下雜誌",
+   "time": "2026/11/06",
+   "url": "https://www.cw.com.tw/article/5143608"
+  },
+  {
+   "id": "glp1eye",
    "cat": "健康醫療",
-   "title": "「小眾肺癌」免疫治療逾300萬　家屬嘆非一般人能負擔",
-   "short": "小眾肺癌免疫治療逾300萬",
+   "title": "首例瘦瘦針疑釀眼中風失明　申請藥害救濟審議中",
+   "short": "首例瘦瘦針疑釀眼中風失明",
    "src": "中央社",
-   "time": "2026/11/10",
-   "url": "https://www.cna.com.tw/news/ahel/202611100219.aspx",
+   "time": "2026/11/11",
+   "url": "https://www.cna.com.tw/news/ahel/202611110217.aspx",
    "top": 5
   },
   {
-   "id": "ntuher",
+   "id": "copd",
    "cat": "健康醫療",
-   "title": "台大急診單日破300人天數破百　整合病房擬12月試營運",
-   "short": "台大急診單日破300人天數破百",
+   "title": "吸菸者罹肺阻塞風險高　醫提醒五大惡化風險因子",
+   "short": "吸菸者罹肺阻塞風險高6.3倍",
    "src": "中央社",
-   "time": "2026/11/10",
-   "url": "https://www.cna.com.tw/news/ahel/202611100246.aspx"
+   "time": "2026/11/11",
+   "url": "https://www.cna.com.tw/news/ahel/202611110304.aspx"
   },
   {
-   "id": "vessel",
+   "id": "fludoc",
    "cat": "健康醫療",
-   "title": "血管19歲最健康，35歲走下坡！吃對3類礦物質顧血管",
-   "short": "血管35歲走下坡　吃對礦物質顧血管",
+   "title": "莊維元醫師55歲猝逝　疑流感併發心肌炎奪命",
+   "short": "醫師55歲猝逝　疑流感奪命",
    "src": "今周刊",
-   "time": "2026/11/10",
-   "url": "https://www.businesstoday.com.tw/article/category/183029/post/202611100034/"
+   "time": "2026/11/11",
+   "url": "https://www.businesstoday.com.tw/article/category/183027/post/202611110018/"
   },
   {
-   "id": "jointex",
+   "id": "grassjelly",
    "cat": "健康醫療",
-   "title": "65歲後做5種運動，讓關節年輕10歲",
-   "short": "65歲後做5種運動　關節年輕10歲",
+   "title": "抗發炎、還能降血糖！醫師力推仙草「3大黃金吃法」",
+   "short": "仙草抗發炎　還能降血糖",
    "src": "天下雜誌",
-   "time": "2026/11/10",
-   "url": "https://www.cw.com.tw/article/5143665"
+   "time": "2026/11/05",
+   "url": "https://www.cw.com.tw/article/5143465"
   }
  ],
  "posters": [
