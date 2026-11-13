@@ -1,32 +1,32 @@
 {
- "date": "2026.11.13",
- "asof": "2026/11/13",
- "idx_note": "美股為美東 11/12（週四）收盤（中央社）；台股為 11/12（週四）收盤（工商時報）；本日 11/13 週五開盤前編輯",
+ "date": "2026.11.14",
+ "asof": "2026/11/14",
+ "idx_note": "美股為美東 11/13（週五）收盤（工商時報網站行情）；台股為 11/13（週五）收盤（工商時報）；本日 11/14 週六編輯",
  "sources": "中央社、工商時報、今周刊、天下雜誌、臺灣證券交易所、Yahoo Finance",
  "idx": [
   [
    "道瓊",
-   "52,297.09",
-   "-189.40",
-   "-0.36%"
+   "52,347.55",
+   "+50.46",
+   "+0.10%"
   ],
   [
    "標普500",
-   "7,592.40",
-   "-26.98",
-   "-0.35%"
+   "7,561.67",
+   "-30.73",
+   "-0.40%"
   ],
   [
    "那斯達克",
-   "25,366.09",
-   "-100.10",
-   "-0.39%"
+   "25,136.27",
+   "-229.82",
+   "-0.91%"
   ],
   [
    "台股加權",
-   "43,091.87",
-   "-1,165.28",
-   "-2.63%"
+   "43,675.12",
+   "+583.25",
+   "+1.35%"
   ]
  ],
  "cats": [
@@ -36,144 +36,144 @@
  ],
  "items": [
   {
-   "id": "jhhquit",
+   "id": "cooknext",
    "cat": "財經",
-   "title": "黃仁勳下台 輝達茫然",
-   "short": "黃仁勳下台　輝達茫然",
+   "title": "輝達接班人 川普點名庫克",
+   "short": "輝達接班人　川普點名庫克",
    "src": "工商時報",
-   "time": "2026/11/13",
-   "url": "https://www.ctee.com.tw/news/20261113700046-439901",
+   "time": "2026/11/14",
+   "url": "https://www.ctee.com.tw/news/20261114700026-439901",
    "top": 1
   },
   {
-   "id": "twswing",
+   "id": "twweek",
    "cat": "財經",
-   "title": "為他瘋狂 台股洗三溫暖",
-   "short": "為他瘋狂　台股洗三溫暖",
+   "title": "台股周漲3,973點創紀錄！外資終止連11賣 專家點出觸底訊號",
+   "short": "台股周漲3,973點創紀錄",
    "src": "工商時報",
    "time": "2026/11/13",
-   "url": "https://www.ctee.com.tw/news/20261113700049-439901",
+   "url": "https://www.ctee.com.tw/news/20261113701235-430201",
    "top": 2
   },
   {
-   "id": "nvsupply",
+   "id": "lutnick",
    "cat": "財經",
-   "title": "黃仁勳辭職會掃到台廠AI供應鏈嗎？「踩油門的人不見了」需求會放緩？",
-   "short": "黃仁勳辭職　台廠AI鏈受衝擊？",
+   "title": "黃仁勳一倒、華府高層互咬，輝達晶片引爆川普內閣權鬥",
+   "short": "輝達晶片引爆川普內閣權鬥",
    "src": "天下雜誌",
-   "time": "2026/11/12",
-   "url": "https://www.cw.com.tw/article/5143699",
+   "time": "2026/11/14",
+   "url": "https://www.cw.com.tw/article/5143721",
    "top": 3
   },
   {
-   "id": "ipoaward",
+   "id": "nvexposure",
    "cat": "財經",
-   "title": "AI需求點火　經部：今年外商對台採購估達3258億美元創高",
-   "short": "外商對台採購估3258億美元",
+   "title": "黃仁勳辭職「兆元宴」絕版！技嘉廣達、奇鋐鴻海緯創…輝達依賴度排行曝光！誰吃轉單？法人點這幾檔贏家",
+   "short": "輝達依賴度排行曝光　誰吃轉單？",
+   "src": "今周刊",
+   "time": "2026/11/13",
+   "url": "https://www.businesstoday.com.tw/article/category/183015/post/202611130028/"
+  },
+  {
+   "id": "semi976",
+   "cat": "財經",
+   "title": "台灣半導體產值今年挑戰9.76兆元　估成長49.7%",
+   "short": "半導體產值今年挑戰9.76兆",
    "src": "中央社",
-   "time": "2026/11/12",
-   "url": "https://www.cna.com.tw/news/afe/202611120308.aspx"
+   "time": "2026/11/13",
+   "url": "https://www.cna.com.tw/news/afe/202611130275.aspx"
   },
   {
-   "id": "fsccyber",
+   "id": "usppi",
    "cat": "財經",
-   "title": "AI資安攻擊升溫　金管會資安長會議緊盯4大面向",
-   "short": "金管會資安長會議盯4面向",
+   "title": "美10月躉售通膨居高不下　市場押注聯準會12月升息",
+   "short": "美躉售通膨6.5%　押注12月升息",
    "src": "中央社",
-   "time": "2026/11/12",
-   "url": "https://www.cna.com.tw/news/afe/202611120331.aspx"
+   "time": "2026/11/14",
+   "url": "https://www.cna.com.tw/news/aopl/202611140005.aspx"
   },
   {
-   "id": "aicentral",
-   "cat": "財經",
-   "title": "「AI央行」輝達大到不能倒？黃仁勳危機會引發連環爆嗎？",
-   "short": "「AI央行」輝達大到不能倒？",
-   "src": "天下雜誌",
-   "time": "2026/11/12",
-   "url": "https://www.cw.com.tw/article/5143692"
-  },
-  {
-   "id": "wwins",
+   "id": "fhc6800",
    "cat": "保險理財",
-   "title": "旺旺保前三季賺22.6億元創高 獲利飆增1.5倍",
-   "short": "旺旺保前三季賺22.6億創高",
+   "title": "金控前十月獲利 挑戰6,800億",
+   "short": "金控前十月獲利挑戰6,800億",
    "src": "工商時報",
-   "time": "2026/11/12",
-   "url": "https://www.ctee.com.tw/news/20261112701641-430305",
+   "time": "2026/11/13",
+   "url": "https://www.ctee.com.tw/news/20261113700165-430304",
    "top": 4
   },
   {
-   "id": "taxiins",
+   "id": "anthropicipo",
    "cat": "保險理財",
-   "title": "強制投保第三人責任保險　百輛小黃赴交通部抗議保費高",
-   "short": "強制第三人責任險　小黃抗議",
+   "title": "Anthropic將在美IPO　富邦人壽擬申購上限7億美元",
+   "short": "富邦人壽擬申購Anthropic IPO",
    "src": "中央社",
-   "time": "2026/11/12",
-   "url": "https://www.cna.com.tw/news/ahel/202611120304.aspx"
+   "time": "2026/11/13",
+   "url": "https://www.cna.com.tw/news/afe/202611130316.aspx"
   },
   {
-   "id": "retire600",
+   "id": "eilaw",
    "cat": "保險理財",
-   "title": "存款600萬，退休就能月花5萬？勞保勞退不到3萬，生活費缺口怎麼補？0050、台積電這樣買，老本不怕被掏空",
-   "short": "存600萬　退休月花5萬？",
+   "title": "就業保險刪除65歲投保上限 調高提早就業獎助給付標準",
+   "short": "就保刪除65歲投保上限",
+   "src": "中央社",
+   "time": "2026/11/13",
+   "url": "https://www.cna.com.tw/news/ahel/202611130276.aspx"
+  },
+  {
+   "id": "retire350",
+   "cat": "保險理財",
+   "title": "50歲只有350萬，存退休金還來得及？台積電、0050怎麼配？闕又上教3招：10年滾出800萬、月花6萬安穩退休",
+   "short": "50歲只有350萬　退休還來得及？",
    "src": "今周刊",
-   "time": "2026/11/12",
-   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202611120013/"
+   "time": "2026/11/13",
+   "url": "https://www.businesstoday.com.tw/article/category/183012/post/202611130013/"
   },
   {
-   "id": "etf631l",
+   "id": "cwweekly",
    "cat": "保險理財",
-   "title": "00631L今年來報酬率112%，現在可以買？0050正2規模衝破3000億，想入手一文看懂風險在哪",
-   "short": "00631L規模破3000億　能買嗎？",
-   "src": "今周刊",
-   "time": "2026/11/12",
-   "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611120012/"
-  },
-  {
-   "id": "nvbuy",
-   "cat": "保險理財",
-   "title": "天下晨間新聞：輝達該買還是該賣？分析師怎麼看",
-   "short": "輝達該買還是該賣？",
+   "title": "天下財經週報：黃仁勳辭職，輝達撐得住嗎？本週法說會萬眾矚目",
+   "short": "天下財經週報：輝達撐得住嗎？",
    "src": "天下雜誌",
    "time": "2026/11/13",
-   "url": "https://www.cw.com.tw/article/5143701"
+   "url": "https://www.cw.com.tw/article/5143719"
   },
   {
-   "id": "vaxerr",
+   "id": "bikini72",
    "cat": "健康醫療",
-   "title": "台東學生錯打COVID-19疫苗　疾管署：不致有害、要求徹查",
-   "short": "台東16學生錯打COVID疫苗",
-   "src": "中央社",
-   "time": "2026/11/12",
-   "url": "https://www.cna.com.tw/news/ahel/202611120356.aspx",
+   "title": "罹癌後仍奪比基尼健身賽亞軍！72歲廖桂蘭如何從一次摔倒，練出挑戰極限的人生？",
+   "short": "72歲罹癌阿嬤奪比基尼賽亞軍",
+   "src": "天下雜誌",
+   "time": "2026/11/13",
+   "url": "https://www.cw.com.tw/article/5143716",
    "top": 5
   },
   {
-   "id": "toymetal",
+   "id": "gingerduck",
    "cat": "健康醫療",
-   "title": "消基會測試兒童玩具用品　手錶、戒指、項鍊重金屬超標",
-   "short": "兒童飾品手錶　重金屬超標",
+   "title": "薑母鴨煮滾就沒酒精？營養師：燉逾2小時仍可能殘留",
+   "short": "薑母鴨燉2小時仍可能殘酒精",
    "src": "中央社",
-   "time": "2026/11/12",
-   "url": "https://www.cna.com.tw/news/ahel/202611120318.aspx"
+   "time": "2026/11/13",
+   "url": "https://www.cna.com.tw/news/ahel/202611130198.aspx"
   },
   {
-   "id": "baolin",
+   "id": "potato",
    "cat": "健康醫療",
-   "title": "寶林負責人脫產判不到2年，「我吃盤炒粿條腎功能剩30」…倖存者22天搶回一命怒喊：我還在付健康代價",
-   "short": "寶林案倖存者：仍付健康代價",
-   "src": "今周刊",
-   "time": "2026/11/12",
-   "url": "https://www.businesstoday.com.tw/article/category/183027/post/202611120019/"
-  },
-  {
-   "id": "dryeye",
-   "cat": "健康醫療",
-   "title": "冬季是乾眼症好發期！中醫教冬季護眼關鍵",
-   "short": "冬季乾眼好發　中醫教護眼",
+   "title": "買回家的馬鈴薯該怎麼放？掌握正確保存方法遠離食品安全危機",
+   "short": "馬鈴薯怎麼放　避開天然毒素",
    "src": "工商時報",
-   "time": "2026/11/11",
-   "url": "https://www.ctee.com.tw/news/20261111700678-430905"
+   "time": "2026/11/13",
+   "url": "https://www.ctee.com.tw/news/20261113700001-430905"
+  },
+  {
+   "id": "selfpaymed",
+   "cat": "健康醫療",
+   "title": "光麗生技布局高端自費醫療！整合診所、藥局與AI服務，拓展預防醫學新市場",
+   "short": "光麗生技布局高端自費醫療",
+   "src": "今周刊",
+   "time": "2026/11/13",
+   "url": "https://www.businesstoday.com.tw/article/category/183015/post/202611130045/"
   }
  ],
  "posters": [
